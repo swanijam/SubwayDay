@@ -39,7 +39,7 @@ public class GazeScript1 : MonoBehaviour {
 				potential_gr = hit.collider.gameObject.GetComponentInChildren<ConversationButton> ();
 			}
 			// If it is:
-			if (potential_gr) {
+			if (potential_gr && !potential_gr.inactive) {
 				// If we've been looking at this continuously:
 				if (potential_gr == previous_gr) {
 					continuous_time += Time.deltaTime;
