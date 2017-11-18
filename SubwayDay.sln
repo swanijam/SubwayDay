@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubwayDay", "Assembly-CSharp-firstpass.csproj", "{202A215E-1C12-F164-46C3-05ED22E9346A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubwayDay", "Assembly-CSharp.csproj", "{703CFC43-79D0-30BF-53CE-98DCA6DB12F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{202A215E-1C12-F164-46C3-05ED22E9346A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{202A215E-1C12-F164-46C3-05ED22E9346A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{202A215E-1C12-F164-46C3-05ED22E9346A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{202A215E-1C12-F164-46C3-05ED22E9346A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{703CFC43-79D0-30BF-53CE-98DCA6DB12F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{703CFC43-79D0-30BF-53CE-98DCA6DB12F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{703CFC43-79D0-30BF-53CE-98DCA6DB12F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{703CFC43-79D0-30BF-53CE-98DCA6DB12F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,3 @@
+.Assembly*
+*.DS_Store
+Temp/
