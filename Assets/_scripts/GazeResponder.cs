@@ -11,9 +11,9 @@ public class GazeResponder : MonoBehaviour {
 
 	public virtual void Invoke() {
 		if (onGaze != null && !inactive) {
+			this.inactive = true;
 			DialogUIManager.instance.HideDialogButtons ();
 			onGaze.Invoke ();
-			this.inactive = true;
 		} else {
 			Debug.LogWarning ("Gaze Action not set on " + gameObject.name);
 		}

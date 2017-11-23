@@ -50,8 +50,8 @@ public class GazeScript1 : MonoBehaviour {
 						reticle.transform.localScale = new Vector3(1f, 1f, 1f);
 						Debug.Log ("Gaze Triggered on " + hit.collider.gameObject.name);
 						// Notify the GazeResponder and tell it to, uh, respond.
-						potential_gr.Invoke ();
 						continuous_time = 0f;
+						potential_gr.Invoke ();
 					}
 					// If we haven't been looking at this continuously: 
 				} else {
@@ -61,7 +61,7 @@ public class GazeScript1 : MonoBehaviour {
 				}					
 			} else {
 				reticle.transform.localScale = new Vector3(1f, 1f, 1f);
-				Debug.Log (hit.collider.gameObject.name);
+//				Debug.Log (hit.collider.gameObject.name);
 			}
 				
 

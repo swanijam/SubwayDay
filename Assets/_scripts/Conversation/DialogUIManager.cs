@@ -52,7 +52,7 @@ public class DialogUIManager : MonoBehaviour
 	}
 
 	public void HideDialogButtons(){
-		mainButtonsPanel.BroadcastMessage ("Hide");
+		mainButtonsPanel.BroadcastMessage ("Hide", null, SendMessageOptions.DontRequireReceiver);
 //		clearDialogButtons ();
 	}
 

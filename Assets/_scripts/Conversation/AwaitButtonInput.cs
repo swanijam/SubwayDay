@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class AwaitButtonInput : MonoBehaviour {
-
+public class AwaitButtonInput : ConversationElement {
 	public ButtonData[] buttons;
 
 	// Use this for initialization
@@ -13,14 +12,10 @@ public class AwaitButtonInput : MonoBehaviour {
 			DialogUIManager.instance.AddButton (b);
 		}
 		DialogUIManager.instance.RevealDialogButtons ();
+		ConversationsManager.instance.setSpeakerState (speakerName, SPEAKER_STATE.LISTENING);
 	}
 
 	void OnDisable() {
 		DialogUIManager.instance.HideDialogButtons ();
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
 	}
 }
