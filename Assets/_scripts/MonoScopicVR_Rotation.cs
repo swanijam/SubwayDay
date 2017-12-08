@@ -33,6 +33,7 @@ public class MonoScopicVR_Rotation : MonoBehaviour {
 		}
 		#if UNITY_EDITOR
 		if (listening) {
+			Cursor.lockState = CursorLockMode.Locked;
 			x += (Input.GetAxis("Mouse X") * _turnRate * Time.deltaTime);
 			y -= (Input.GetAxis("Mouse Y") * _turnRate * Time.deltaTime);
 			Quaternion rotation = Quaternion.Euler (y, x, 0f);

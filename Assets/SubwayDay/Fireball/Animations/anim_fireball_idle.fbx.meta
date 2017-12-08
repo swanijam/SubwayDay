@@ -1,0 +1,237 @@
+fileFormatVersion: 2
+guid: 0f5226991a30b46dea28cda516584632
+timeCreated: 1512725810
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: base_flame_1
+    100004: base_flame_2
+    100006: base_flame_3
+    100008: base_flame_4
+    100010: center_joint
+    100012: fireball 1
+    100014: low_flame_1
+    100016: low_flame_2
+    100018: low_flame_3
+    100020: low_flame_4
+    100022: mid_flame_1
+    100024: mid_flame_2
+    100026: mid_flame_3
+    100028: mid_flame_4
+    100030: tie
+    100032: tie 1
+    100034: tie 2
+    100036: tie_base_joint
+    100038: tie_bottom
+    100040: tie_bottom_joint
+    100042: tie_knot
+    100044: tie_knot_joint
+    100046: tie_middle_joint
+    100048: tie_neck
+    100050: tie_top_joint
+    100052: tip_flame_1
+    100054: tip_flame_2
+    100056: tip_flame_3
+    100058: tip_flame_4
+    100060: top_flame_1
+    100062: top_flame_2
+    100064: top_flame_3
+    100066: top_flame_4
+    400000: //RootNode
+    400002: base_flame_1
+    400004: base_flame_2
+    400006: base_flame_3
+    400008: base_flame_4
+    400010: center_joint
+    400012: fireball 1
+    400014: low_flame_1
+    400016: low_flame_2
+    400018: low_flame_3
+    400020: low_flame_4
+    400022: mid_flame_1
+    400024: mid_flame_2
+    400026: mid_flame_3
+    400028: mid_flame_4
+    400030: tie
+    400032: tie 1
+    400034: tie 2
+    400036: tie_base_joint
+    400038: tie_bottom
+    400040: tie_bottom_joint
+    400042: tie_knot
+    400044: tie_knot_joint
+    400046: tie_middle_joint
+    400048: tie_neck
+    400050: tie_top_joint
+    400052: tip_flame_1
+    400054: tip_flame_2
+    400056: tip_flame_3
+    400058: tip_flame_4
+    400060: top_flame_1
+    400062: top_flame_2
+    400064: top_flame_3
+    400066: top_flame_4
+    2300000: tie_neck
+    3300000: tie_neck
+    4300000: tie_neck
+    4300002: tie_knot
+    4300004: tie_bottom
+    4300006: fireball
+    7400000: Take 001
+    9500000: //RootNode
+    11400000: //RootNode
+    11400002: //RootNode
+    11400004: base_flame_1
+    11400006: base_flame_2
+    11400008: base_flame_3
+    11400010: base_flame_4
+    11400012: center_joint
+    11400014: fireball 1
+    11400016: low_flame_1
+    11400018: low_flame_2
+    11400020: low_flame_3
+    11400022: low_flame_4
+    11400024: mid_flame_1
+    11400026: mid_flame_2
+    11400028: mid_flame_3
+    11400030: mid_flame_4
+    11400032: tie
+    11400034: tie 1
+    11400036: tie 2
+    11400038: tie_base_joint
+    11400040: tie_bottom
+    11400042: tie_bottom_joint
+    11400044: tie_knot
+    11400046: tie_knot_joint
+    11400048: tie_middle_joint
+    11400050: tie_neck
+    11400052: tie_top_joint
+    11400054: tip_flame_1
+    11400056: tip_flame_2
+    11400058: tip_flame_3
+    11400060: tip_flame_4
+    11400062: top_flame_1
+    11400064: top_flame_2
+    11400066: top_flame_3
+    11400068: top_flame_4
+    13700000: fireball 1
+    13700002: tie_bottom
+    13700004: tie_knot
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rampShader1
+    second: {fileID: 2100000, guid: 27aee8ce35689426eab74a1da99f7e7d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tie_color1
+    second: {fileID: 2100000, guid: 82abf2f03ddf64c01944e6da7fd70c97, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 43
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
