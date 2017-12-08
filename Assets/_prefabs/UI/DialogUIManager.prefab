@@ -44,7 +44,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &114316950604199898
 MonoBehaviour:
-  m_ObjectHideFlags: 11
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1703323391723352}
@@ -67,13 +67,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mainTextPanel: {fileID: 0}
   mainButtonsPanel: {fileID: 0}
-  buttonPrefab: {fileID: 1109689966051914, guid: ad2adb14b015d4365a8d8c79636e2a3e,
+  buttonPrefab: {fileID: 1835636527195302, guid: 0ddd9728463b8c6419a5feeedb47cbce,
     type: 2}
   Reticle_parent: {fileID: 0}
   Reticle_inner: {fileID: 0}
 --- !u!114 &114947356106968414
 MonoBehaviour:
-  m_ObjectHideFlags: 11
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1703323391723352}

@@ -68,13 +68,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1260038670251766}
-  m_LocalRotation: {x: 0.09516559, y: 0.65499777, z: -0.08367674, w: 0.7449293}
-  m_LocalPosition: {x: -0.082, y: 0.561, z: -0.687}
+  m_LocalRotation: {x: -0.02855907, y: 0.72209007, z: 0.02104315, w: 0.690889}
+  m_LocalPosition: {x: 0.06699977, y: 0.5610013, z: -1.843004}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4423914504632418}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 14.56, y: 82.649, z: 0}
+  m_LocalEulerAnglesHint: {x: -4.006, y: 92.554, z: -0.69900006}
 --- !u!64 &64195982799018050
 MeshCollider:
   m_ObjectHideFlags: 1
@@ -91,7 +91,7 @@ MeshCollider:
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!114 &114684316421188592
 MonoBehaviour:
-  m_ObjectHideFlags: 11
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1260038670251766}
@@ -103,7 +103,7 @@ MonoBehaviour:
   _guid: a199e79f-fb44-4f57-bad1-2664b53e37b3
 --- !u!114 &114732204462018584
 MonoBehaviour:
-  m_ObjectHideFlags: 11
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1390436131869288}
@@ -115,7 +115,7 @@ MonoBehaviour:
   _guid: 4a11c178-8c8b-40c6-b1ed-f02ccdc2a51f
 --- !u!114 &114852870020034878
 MonoBehaviour:
-  m_ObjectHideFlags: 11
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1390436131869288}
@@ -159,6 +159,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   inactive: 0
+  alwaysActive: 1
 --- !u!114 &114980794443640880
 MonoBehaviour:
   m_ObjectHideFlags: 1

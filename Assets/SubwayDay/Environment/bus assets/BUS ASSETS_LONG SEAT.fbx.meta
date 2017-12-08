@@ -1,0 +1,178 @@
+fileFormatVersion: 2
+guid: 45854350d86cc475986d957b240073f0
+timeCreated: 1512753143
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Brace
+    100002: //RootNode
+    100004: Leg_1
+    100006: Leg_2
+    100008: Long_Seat 1
+    100010: Long_Seat_Pole
+    100012: pCube10
+    100014: pCube11
+    100016: pCube6
+    100018: pCube7
+    100020: pCube8
+    100022: pCube9
+    100024: Pole
+    100026: Rail
+    400000: Brace
+    400002: //RootNode
+    400004: Leg_1
+    400006: Leg_2
+    400008: Long_Seat 1
+    400010: Long_Seat_Pole
+    400012: pCube10
+    400014: pCube11
+    400016: pCube6
+    400018: pCube7
+    400020: pCube8
+    400022: pCube9
+    400024: Pole
+    400026: Rail
+    2300000: Brace
+    2300002: Long_Seat 1
+    2300004: pCube10
+    2300006: pCube11
+    2300008: pCube6
+    2300010: pCube7
+    2300012: pCube8
+    2300014: pCube9
+    2300016: Pole
+    2300018: Rail
+    3300000: Brace
+    3300002: Long_Seat 1
+    3300004: pCube10
+    3300006: pCube11
+    3300008: pCube6
+    3300010: pCube7
+    3300012: pCube8
+    3300014: pCube9
+    3300016: Pole
+    3300018: Rail
+    4300000: Long_Seat
+    4300002: Pole
+    4300004: Brace
+    4300006: pCube7
+    4300008: pCube8
+    4300010: pCube6
+    4300012: pCube9
+    4300014: pCube11
+    4300016: pCube10
+    4300018: Rail
+    11400000: Brace
+    11400002: //RootNode
+    11400004: //RootNode
+    11400006: Leg_1
+    11400008: Leg_2
+    11400010: Long_Seat 1
+    11400012: Long_Seat_Pole
+    11400014: pCube10
+    11400016: pCube11
+    11400018: pCube6
+    11400020: pCube7
+    11400022: pCube8
+    11400024: pCube9
+    11400026: Pole
+    11400028: Rail
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Poll_Anchor_Mat
+    second: {fileID: 2100000, guid: 6dee604a3361f465389b496227596734, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Poll_Mat
+    second: {fileID: 2100000, guid: bd654a2d734104d83b23abebde2e6d07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Seat_Anchor
+    second: {fileID: 2100000, guid: b5eff579d90294b9eb2490eb82e895d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2
+    second: {fileID: 2100000, guid: 444e8dbef36e74472bd99e2cf8100531, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

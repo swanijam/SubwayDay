@@ -8,10 +8,11 @@ public class GazeResponder : MonoBehaviour {
 	// by default, a gazeResponder should become inactive
 	// after its onGaze is invoked.
 	public bool inactive = false;
+	public bool alwaysActive = false;
 
 	public virtual void Invoke() {
 		if (onGaze != null && !inactive) {
-			this.inactive = true;
+			if (!alwaysActive) this.inactive = true;
 			DialogUIManager.instance.HideDialogButtons ();
 			onGaze.Invoke ();
 		} else {

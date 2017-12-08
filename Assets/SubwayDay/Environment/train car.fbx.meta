@@ -1,0 +1,1234 @@
+fileFormatVersion: 2
+guid: dab4c4c1ea47d4d96b9976c291e791a2
+timeCreated: 1512753172
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Brace
+    100002: Brace 1
+    100004: Brace 2
+    100006: Brace 3
+    100008: Brace1
+    100010: Brace1 1
+    100012: Brace1 2
+    100014: Brace2
+    100016: Brace2 1
+    100018: Brace3
+    100020: Brace3 1
+    100022: Brace4
+    100024: Brace4 1
+    100026: door
+    100028: door3
+    100030: isle_track
+    100032: Leg_1
+    100034: Leg_1 1
+    100036: Leg_1 10
+    100038: Leg_1 11
+    100040: Leg_1 2
+    100042: Leg_1 3
+    100044: Leg_1 4
+    100046: Leg_1 5
+    100048: Leg_1 6
+    100050: Leg_1 7
+    100052: Leg_1 8
+    100054: Leg_1 9
+    100056: Leg_2
+    100058: Leg_2 1
+    100060: Leg_2 2
+    100062: Long_Seat
+    100064: Long_Seat 1
+    100066: Long_Seat 2
+    100068: Long_Seat 3
+    100070: Long_Seat1
+    100072: Long_Seat2
+    100074: Long_Seat_Pole
+    100076: Long_Seat_Pole 1
+    100078: Long_Seat_Pole 2
+    100080: Lowpolyitems:Brace
+    100082: Lowpolyitems:Hand_Strap
+    100084: Lowpolyitems:Leg_1
+    100086: Lowpolyitems:Leg_1 1
+    100088: Lowpolyitems:Leg_2
+    100090: Lowpolyitems:Long_Seat
+    100092: Lowpolyitems:Long_Seat 1
+    100094: Lowpolyitems:Long_Seat_Pole
+    100096: Lowpolyitems:pCube10
+    100098: Lowpolyitems:pCube11
+    100100: Lowpolyitems:pCube3
+    100102: Lowpolyitems:pCube4
+    100104: Lowpolyitems:pCube5
+    100106: Lowpolyitems:pCube6
+    100108: Lowpolyitems:pCube7
+    100110: Lowpolyitems:pCube8
+    100112: Lowpolyitems:pCube9
+    100114: Lowpolyitems:pCylinder2
+    100116: Lowpolyitems:pCylinder3
+    100118: Lowpolyitems:pCylinder8
+    100120: Lowpolyitems:pHelix1
+    100122: Lowpolyitems:Pole
+    100124: Lowpolyitems:Pole 1
+    100126: Lowpolyitems:pTorus1
+    100128: Lowpolyitems:Rail
+    100130: Lowpolyitems:Rail 1
+    100132: Lowpolyitems:Seat_Mat
+    100134: Lowpolyitems:Single_Seat
+    100136: Lowpolyitems:Stop_Requested_Box
+    100138: Lowpolyitems:Stop_Requested_Sign
+    100140: mid_isle_track
+    100142: pCube10
+    100144: pCube10 1
+    100146: pCube10 2
+    100148: pCube11
+    100150: pCube11 1
+    100152: pCube11 2
+    100154: pCube3
+    100156: pCube3 1
+    100158: pCube3 2
+    100160: pCube3 3
+    100162: pCube3 4
+    100164: pCube3 5
+    100166: pCube3 6
+    100168: pCube3 7
+    100170: pCube3 8
+    100172: pCube4
+    100174: pCube4 1
+    100176: pCube4 2
+    100178: pCube4 3
+    100180: pCube4 4
+    100182: pCube4 5
+    100184: pCube4 6
+    100186: pCube4 7
+    100188: pCube4 8
+    100190: pCube5
+    100192: pCube5 1
+    100194: pCube5 2
+    100196: pCube5 3
+    100198: pCube5 4
+    100200: pCube5 5
+    100202: pCube5 6
+    100204: pCube5 7
+    100206: pCube5 8
+    100208: pCube6
+    100210: pCube6 1
+    100212: pCube6 2
+    100214: pCube7
+    100216: pCube7 1
+    100218: pCube7 2
+    100220: pCube8
+    100222: pCube8 1
+    100224: pCube8 2
+    100226: pCube9
+    100228: pCube9 1
+    100230: pCube9 2
+    100232: pCylinder10
+    100234: pCylinder11
+    100236: pCylinder12
+    100238: pCylinder13
+    100240: pCylinder14
+    100242: pCylinder15
+    100244: pCylinder16
+    100246: pCylinder17
+    100248: pCylinder18
+    100250: pCylinder19
+    100252: pCylinder2
+    100254: pCylinder2 1
+    100256: pCylinder20
+    100258: pCylinder3
+    100260: pCylinder4
+    100262: pCylinder5
+    100264: pCylinder6
+    100266: pCylinder8
+    100268: pCylinder9
+    100270: pHelix1
+    100272: pHelix10
+    100274: pHelix11
+    100276: pHelix12
+    100278: pHelix13
+    100280: pHelix2
+    100282: pHelix3
+    100284: pHelix4
+    100286: pHelix5
+    100288: pHelix6
+    100290: pHelix7
+    100292: pHelix8
+    100294: pHelix9
+    100296: Pole
+    100298: Pole 1
+    100300: Pole 2
+    100302: Pole 3
+    100304: Pole 4
+    100306: Pole1
+    100308: pTorus1
+    100310: pTorus10
+    100312: pTorus11
+    100314: pTorus12
+    100316: pTorus13
+    100318: pTorus2
+    100320: pTorus3
+    100322: pTorus4
+    100324: pTorus5
+    100326: pTorus6
+    100328: pTorus7
+    100330: pTorus8
+    100332: pTorus9
+    100334: Rail
+    100336: Rail 1
+    100338: Rail 10
+    100340: Rail 11
+    100342: Rail 2
+    100344: Rail 3
+    100346: Rail 4
+    100348: Rail 5
+    100350: Rail 6
+    100352: Rail 7
+    100354: Rail 8
+    100356: Rail 9
+    100358: Seat_Mat
+    100360: Seat_Mat 1
+    100362: Seat_Mat 2
+    100364: Seat_Mat 3
+    100366: Seat_Mat 4
+    100368: Seat_Mat 5
+    100370: Seat_Mat 6
+    100372: Seat_Mat 7
+    100374: Seat_Mat 8
+    100376: Single_Seat
+    100378: Single_Seat1
+    100380: Single_Seat2
+    100382: Single_Seat3
+    100384: Single_Seat4
+    100386: Single_Seat5
+    100388: Single_Seat6
+    100390: Single_Seat7
+    100392: Single_Seat8
+    100394: Stop_Requested_Box
+    100396: Stop_Requested_Sign
+    100398: track_isle
+    100400: //RootNode
+    100402: train_car 1
+    100404: train_car 2
+    400000: Brace
+    400002: Brace 1
+    400004: Brace 2
+    400006: Brace 3
+    400008: Brace1
+    400010: Brace1 1
+    400012: Brace1 2
+    400014: Brace2
+    400016: Brace2 1
+    400018: Brace3
+    400020: Brace3 1
+    400022: Brace4
+    400024: Brace4 1
+    400026: door
+    400028: door3
+    400030: isle_track
+    400032: Leg_1
+    400034: Leg_1 1
+    400036: Leg_1 10
+    400038: Leg_1 11
+    400040: Leg_1 2
+    400042: Leg_1 3
+    400044: Leg_1 4
+    400046: Leg_1 5
+    400048: Leg_1 6
+    400050: Leg_1 7
+    400052: Leg_1 8
+    400054: Leg_1 9
+    400056: Leg_2
+    400058: Leg_2 1
+    400060: Leg_2 2
+    400062: Long_Seat
+    400064: Long_Seat 1
+    400066: Long_Seat 2
+    400068: Long_Seat 3
+    400070: Long_Seat1
+    400072: Long_Seat2
+    400074: Long_Seat_Pole
+    400076: Long_Seat_Pole 1
+    400078: Long_Seat_Pole 2
+    400080: Lowpolyitems:Brace
+    400082: Lowpolyitems:Hand_Strap
+    400084: Lowpolyitems:Leg_1
+    400086: Lowpolyitems:Leg_1 1
+    400088: Lowpolyitems:Leg_2
+    400090: Lowpolyitems:Long_Seat
+    400092: Lowpolyitems:Long_Seat 1
+    400094: Lowpolyitems:Long_Seat_Pole
+    400096: Lowpolyitems:pCube10
+    400098: Lowpolyitems:pCube11
+    400100: Lowpolyitems:pCube3
+    400102: Lowpolyitems:pCube4
+    400104: Lowpolyitems:pCube5
+    400106: Lowpolyitems:pCube6
+    400108: Lowpolyitems:pCube7
+    400110: Lowpolyitems:pCube8
+    400112: Lowpolyitems:pCube9
+    400114: Lowpolyitems:pCylinder2
+    400116: Lowpolyitems:pCylinder3
+    400118: Lowpolyitems:pCylinder8
+    400120: Lowpolyitems:pHelix1
+    400122: Lowpolyitems:Pole
+    400124: Lowpolyitems:Pole 1
+    400126: Lowpolyitems:pTorus1
+    400128: Lowpolyitems:Rail
+    400130: Lowpolyitems:Rail 1
+    400132: Lowpolyitems:Seat_Mat
+    400134: Lowpolyitems:Single_Seat
+    400136: Lowpolyitems:Stop_Requested_Box
+    400138: Lowpolyitems:Stop_Requested_Sign
+    400140: mid_isle_track
+    400142: pCube10
+    400144: pCube10 1
+    400146: pCube10 2
+    400148: pCube11
+    400150: pCube11 1
+    400152: pCube11 2
+    400154: pCube3
+    400156: pCube3 1
+    400158: pCube3 2
+    400160: pCube3 3
+    400162: pCube3 4
+    400164: pCube3 5
+    400166: pCube3 6
+    400168: pCube3 7
+    400170: pCube3 8
+    400172: pCube4
+    400174: pCube4 1
+    400176: pCube4 2
+    400178: pCube4 3
+    400180: pCube4 4
+    400182: pCube4 5
+    400184: pCube4 6
+    400186: pCube4 7
+    400188: pCube4 8
+    400190: pCube5
+    400192: pCube5 1
+    400194: pCube5 2
+    400196: pCube5 3
+    400198: pCube5 4
+    400200: pCube5 5
+    400202: pCube5 6
+    400204: pCube5 7
+    400206: pCube5 8
+    400208: pCube6
+    400210: pCube6 1
+    400212: pCube6 2
+    400214: pCube7
+    400216: pCube7 1
+    400218: pCube7 2
+    400220: pCube8
+    400222: pCube8 1
+    400224: pCube8 2
+    400226: pCube9
+    400228: pCube9 1
+    400230: pCube9 2
+    400232: pCylinder10
+    400234: pCylinder11
+    400236: pCylinder12
+    400238: pCylinder13
+    400240: pCylinder14
+    400242: pCylinder15
+    400244: pCylinder16
+    400246: pCylinder17
+    400248: pCylinder18
+    400250: pCylinder19
+    400252: pCylinder2
+    400254: pCylinder2 1
+    400256: pCylinder20
+    400258: pCylinder3
+    400260: pCylinder4
+    400262: pCylinder5
+    400264: pCylinder6
+    400266: pCylinder8
+    400268: pCylinder9
+    400270: pHelix1
+    400272: pHelix10
+    400274: pHelix11
+    400276: pHelix12
+    400278: pHelix13
+    400280: pHelix2
+    400282: pHelix3
+    400284: pHelix4
+    400286: pHelix5
+    400288: pHelix6
+    400290: pHelix7
+    400292: pHelix8
+    400294: pHelix9
+    400296: Pole
+    400298: Pole 1
+    400300: Pole 2
+    400302: Pole 3
+    400304: Pole 4
+    400306: Pole1
+    400308: pTorus1
+    400310: pTorus10
+    400312: pTorus11
+    400314: pTorus12
+    400316: pTorus13
+    400318: pTorus2
+    400320: pTorus3
+    400322: pTorus4
+    400324: pTorus5
+    400326: pTorus6
+    400328: pTorus7
+    400330: pTorus8
+    400332: pTorus9
+    400334: Rail
+    400336: Rail 1
+    400338: Rail 10
+    400340: Rail 11
+    400342: Rail 2
+    400344: Rail 3
+    400346: Rail 4
+    400348: Rail 5
+    400350: Rail 6
+    400352: Rail 7
+    400354: Rail 8
+    400356: Rail 9
+    400358: Seat_Mat
+    400360: Seat_Mat 1
+    400362: Seat_Mat 2
+    400364: Seat_Mat 3
+    400366: Seat_Mat 4
+    400368: Seat_Mat 5
+    400370: Seat_Mat 6
+    400372: Seat_Mat 7
+    400374: Seat_Mat 8
+    400376: Single_Seat
+    400378: Single_Seat1
+    400380: Single_Seat2
+    400382: Single_Seat3
+    400384: Single_Seat4
+    400386: Single_Seat5
+    400388: Single_Seat6
+    400390: Single_Seat7
+    400392: Single_Seat8
+    400394: Stop_Requested_Box
+    400396: Stop_Requested_Sign
+    400398: track_isle
+    400400: //RootNode
+    400402: train_car 1
+    400404: train_car 2
+    2300000: Brace
+    2300002: Brace 1
+    2300004: Brace 2
+    2300006: Brace 3
+    2300008: Brace1
+    2300010: Brace1 1
+    2300012: Brace1 2
+    2300014: Brace2
+    2300016: Brace2 1
+    2300018: Brace3
+    2300020: Brace3 1
+    2300022: Brace4
+    2300024: Brace4 1
+    2300026: door
+    2300028: door3
+    2300030: isle_track
+    2300032: Long_Seat 1
+    2300034: Long_Seat 2
+    2300036: Long_Seat 3
+    2300038: Lowpolyitems:Brace
+    2300040: Lowpolyitems:Long_Seat 1
+    2300042: Lowpolyitems:pCube10
+    2300044: Lowpolyitems:pCube11
+    2300046: Lowpolyitems:pCube3
+    2300048: Lowpolyitems:pCube4
+    2300050: Lowpolyitems:pCube5
+    2300052: Lowpolyitems:pCube6
+    2300054: Lowpolyitems:pCube7
+    2300056: Lowpolyitems:pCube8
+    2300058: Lowpolyitems:pCube9
+    2300060: Lowpolyitems:pCylinder2
+    2300062: Lowpolyitems:pCylinder3
+    2300064: Lowpolyitems:pCylinder8
+    2300066: Lowpolyitems:pHelix1
+    2300068: Lowpolyitems:Pole 1
+    2300070: Lowpolyitems:pTorus1
+    2300072: Lowpolyitems:Rail
+    2300074: Lowpolyitems:Rail 1
+    2300076: Lowpolyitems:Seat_Mat
+    2300078: Lowpolyitems:Stop_Requested_Box
+    2300080: Lowpolyitems:Stop_Requested_Sign
+    2300082: mid_isle_track
+    2300084: pCube10
+    2300086: pCube10 1
+    2300088: pCube10 2
+    2300090: pCube11
+    2300092: pCube11 1
+    2300094: pCube11 2
+    2300096: pCube3
+    2300098: pCube3 1
+    2300100: pCube3 2
+    2300102: pCube3 3
+    2300104: pCube3 4
+    2300106: pCube3 5
+    2300108: pCube3 6
+    2300110: pCube3 7
+    2300112: pCube3 8
+    2300114: pCube4
+    2300116: pCube4 1
+    2300118: pCube4 2
+    2300120: pCube4 3
+    2300122: pCube4 4
+    2300124: pCube4 5
+    2300126: pCube4 6
+    2300128: pCube4 7
+    2300130: pCube4 8
+    2300132: pCube5
+    2300134: pCube5 1
+    2300136: pCube5 2
+    2300138: pCube5 3
+    2300140: pCube5 4
+    2300142: pCube5 5
+    2300144: pCube5 6
+    2300146: pCube5 7
+    2300148: pCube5 8
+    2300150: pCube6
+    2300152: pCube6 1
+    2300154: pCube6 2
+    2300156: pCube7
+    2300158: pCube7 1
+    2300160: pCube7 2
+    2300162: pCube8
+    2300164: pCube8 1
+    2300166: pCube8 2
+    2300168: pCube9
+    2300170: pCube9 1
+    2300172: pCube9 2
+    2300174: pCylinder10
+    2300176: pCylinder11
+    2300178: pCylinder12
+    2300180: pCylinder13
+    2300182: pCylinder14
+    2300184: pCylinder15
+    2300186: pCylinder16
+    2300188: pCylinder17
+    2300190: pCylinder18
+    2300192: pCylinder19
+    2300194: pCylinder2
+    2300196: pCylinder2 1
+    2300198: pCylinder20
+    2300200: pCylinder3
+    2300202: pCylinder4
+    2300204: pCylinder5
+    2300206: pCylinder6
+    2300208: pCylinder8
+    2300210: pCylinder9
+    2300212: pHelix1
+    2300214: pHelix10
+    2300216: pHelix11
+    2300218: pHelix12
+    2300220: pHelix13
+    2300222: pHelix2
+    2300224: pHelix3
+    2300226: pHelix4
+    2300228: pHelix5
+    2300230: pHelix6
+    2300232: pHelix7
+    2300234: pHelix8
+    2300236: pHelix9
+    2300238: Pole 1
+    2300240: Pole 2
+    2300242: Pole 3
+    2300244: Pole 4
+    2300246: Pole1
+    2300248: pTorus1
+    2300250: pTorus10
+    2300252: pTorus11
+    2300254: pTorus12
+    2300256: pTorus13
+    2300258: pTorus2
+    2300260: pTorus3
+    2300262: pTorus4
+    2300264: pTorus5
+    2300266: pTorus6
+    2300268: pTorus7
+    2300270: pTorus8
+    2300272: pTorus9
+    2300274: Rail
+    2300276: Rail 1
+    2300278: Rail 10
+    2300280: Rail 11
+    2300282: Rail 2
+    2300284: Rail 3
+    2300286: Rail 4
+    2300288: Rail 5
+    2300290: Rail 6
+    2300292: Rail 7
+    2300294: Rail 8
+    2300296: Rail 9
+    2300298: Seat_Mat
+    2300300: Seat_Mat 1
+    2300302: Seat_Mat 2
+    2300304: Seat_Mat 3
+    2300306: Seat_Mat 4
+    2300308: Seat_Mat 5
+    2300310: Seat_Mat 6
+    2300312: Seat_Mat 7
+    2300314: Seat_Mat 8
+    2300316: Stop_Requested_Box
+    2300318: Stop_Requested_Sign
+    2300320: train_car 2
+    3300000: Brace
+    3300002: Brace 1
+    3300004: Brace 2
+    3300006: Brace 3
+    3300008: Brace1
+    3300010: Brace1 1
+    3300012: Brace1 2
+    3300014: Brace2
+    3300016: Brace2 1
+    3300018: Brace3
+    3300020: Brace3 1
+    3300022: Brace4
+    3300024: Brace4 1
+    3300026: door
+    3300028: door3
+    3300030: isle_track
+    3300032: Long_Seat 1
+    3300034: Long_Seat 2
+    3300036: Long_Seat 3
+    3300038: Lowpolyitems:Brace
+    3300040: Lowpolyitems:Long_Seat 1
+    3300042: Lowpolyitems:pCube10
+    3300044: Lowpolyitems:pCube11
+    3300046: Lowpolyitems:pCube3
+    3300048: Lowpolyitems:pCube4
+    3300050: Lowpolyitems:pCube5
+    3300052: Lowpolyitems:pCube6
+    3300054: Lowpolyitems:pCube7
+    3300056: Lowpolyitems:pCube8
+    3300058: Lowpolyitems:pCube9
+    3300060: Lowpolyitems:pCylinder2
+    3300062: Lowpolyitems:pCylinder3
+    3300064: Lowpolyitems:pCylinder8
+    3300066: Lowpolyitems:pHelix1
+    3300068: Lowpolyitems:Pole 1
+    3300070: Lowpolyitems:pTorus1
+    3300072: Lowpolyitems:Rail
+    3300074: Lowpolyitems:Rail 1
+    3300076: Lowpolyitems:Seat_Mat
+    3300078: Lowpolyitems:Stop_Requested_Box
+    3300080: Lowpolyitems:Stop_Requested_Sign
+    3300082: mid_isle_track
+    3300084: pCube10
+    3300086: pCube10 1
+    3300088: pCube10 2
+    3300090: pCube11
+    3300092: pCube11 1
+    3300094: pCube11 2
+    3300096: pCube3
+    3300098: pCube3 1
+    3300100: pCube3 2
+    3300102: pCube3 3
+    3300104: pCube3 4
+    3300106: pCube3 5
+    3300108: pCube3 6
+    3300110: pCube3 7
+    3300112: pCube3 8
+    3300114: pCube4
+    3300116: pCube4 1
+    3300118: pCube4 2
+    3300120: pCube4 3
+    3300122: pCube4 4
+    3300124: pCube4 5
+    3300126: pCube4 6
+    3300128: pCube4 7
+    3300130: pCube4 8
+    3300132: pCube5
+    3300134: pCube5 1
+    3300136: pCube5 2
+    3300138: pCube5 3
+    3300140: pCube5 4
+    3300142: pCube5 5
+    3300144: pCube5 6
+    3300146: pCube5 7
+    3300148: pCube5 8
+    3300150: pCube6
+    3300152: pCube6 1
+    3300154: pCube6 2
+    3300156: pCube7
+    3300158: pCube7 1
+    3300160: pCube7 2
+    3300162: pCube8
+    3300164: pCube8 1
+    3300166: pCube8 2
+    3300168: pCube9
+    3300170: pCube9 1
+    3300172: pCube9 2
+    3300174: pCylinder10
+    3300176: pCylinder11
+    3300178: pCylinder12
+    3300180: pCylinder13
+    3300182: pCylinder14
+    3300184: pCylinder15
+    3300186: pCylinder16
+    3300188: pCylinder17
+    3300190: pCylinder18
+    3300192: pCylinder19
+    3300194: pCylinder2
+    3300196: pCylinder2 1
+    3300198: pCylinder20
+    3300200: pCylinder3
+    3300202: pCylinder4
+    3300204: pCylinder5
+    3300206: pCylinder6
+    3300208: pCylinder8
+    3300210: pCylinder9
+    3300212: pHelix1
+    3300214: pHelix10
+    3300216: pHelix11
+    3300218: pHelix12
+    3300220: pHelix13
+    3300222: pHelix2
+    3300224: pHelix3
+    3300226: pHelix4
+    3300228: pHelix5
+    3300230: pHelix6
+    3300232: pHelix7
+    3300234: pHelix8
+    3300236: pHelix9
+    3300238: Pole 1
+    3300240: Pole 2
+    3300242: Pole 3
+    3300244: Pole 4
+    3300246: Pole1
+    3300248: pTorus1
+    3300250: pTorus10
+    3300252: pTorus11
+    3300254: pTorus12
+    3300256: pTorus13
+    3300258: pTorus2
+    3300260: pTorus3
+    3300262: pTorus4
+    3300264: pTorus5
+    3300266: pTorus6
+    3300268: pTorus7
+    3300270: pTorus8
+    3300272: pTorus9
+    3300274: Rail
+    3300276: Rail 1
+    3300278: Rail 10
+    3300280: Rail 11
+    3300282: Rail 2
+    3300284: Rail 3
+    3300286: Rail 4
+    3300288: Rail 5
+    3300290: Rail 6
+    3300292: Rail 7
+    3300294: Rail 8
+    3300296: Rail 9
+    3300298: Seat_Mat
+    3300300: Seat_Mat 1
+    3300302: Seat_Mat 2
+    3300304: Seat_Mat 3
+    3300306: Seat_Mat 4
+    3300308: Seat_Mat 5
+    3300310: Seat_Mat 6
+    3300312: Seat_Mat 7
+    3300314: Seat_Mat 8
+    3300316: Stop_Requested_Box
+    3300318: Stop_Requested_Sign
+    3300320: train_car 2
+    4300000: Stop_Requested_Box
+    4300002: Stop_Requested_Sign
+    4300004: Seat_Mat
+    4300006: pCube3
+    4300008: pCube4
+    4300010: pCube5
+    4300012: Rail
+    4300014: Seat_Mat
+    4300016: pCube3
+    4300018: pCube4
+    4300020: pCube5
+    4300022: Rail
+    4300024: Seat_Mat
+    4300026: pCube3
+    4300028: pCube4
+    4300030: pCube5
+    4300032: Rail
+    4300034: Long_Seat
+    4300036: Pole
+    4300038: Brace
+    4300040: Brace1
+    4300042: Brace2
+    4300044: Brace3
+    4300046: Brace4
+    4300048: pCube7
+    4300050: pCube8
+    4300052: pCube6
+    4300054: pCube9
+    4300056: pCube11
+    4300058: pCube10
+    4300060: Rail
+    4300062: Seat_Mat
+    4300064: pCube3
+    4300066: pCube4
+    4300068: pCube5
+    4300070: Rail
+    4300072: pCylinder2
+    4300074: pCylinder3
+    4300076: pCylinder4
+    4300078: Seat_Mat
+    4300080: pCube3
+    4300082: pCube4
+    4300084: pCube5
+    4300086: Rail
+    4300088: Long_Seat
+    4300090: Pole
+    4300092: Brace
+    4300094: Pole1
+    4300096: Brace1
+    4300098: pCube7
+    4300100: pCube8
+    4300102: pCube6
+    4300104: pCube9
+    4300106: pCube11
+    4300108: pCube10
+    4300110: Rail
+    4300112: Seat_Mat
+    4300114: pCube3
+    4300116: pCube4
+    4300118: pCube5
+    4300120: Rail
+    4300122: Seat_Mat
+    4300124: pCube3
+    4300126: pCube4
+    4300128: pCube5
+    4300130: Rail
+    4300132: Seat_Mat
+    4300134: pCube3
+    4300136: pCube4
+    4300138: pCube5
+    4300140: Rail
+    4300142: Long_Seat
+    4300144: Pole
+    4300146: Brace
+    4300148: Brace1
+    4300150: Brace2
+    4300152: Brace3
+    4300154: Brace4
+    4300156: pCube7
+    4300158: pCube8
+    4300160: pCube6
+    4300162: pCube9
+    4300164: pCube11
+    4300166: pCube10
+    4300168: Rail
+    4300170: Seat_Mat
+    4300172: pCube3
+    4300174: pCube4
+    4300176: pCube5
+    4300178: Rail
+    4300180: Lowpolyitems:pCylinder2
+    4300182: Lowpolyitems:pCylinder3
+    4300184: pCylinder2
+    4300186: pCylinder5
+    4300188: pCylinder6
+    4300190: Lowpolyitems:Seat_Mat
+    4300192: Lowpolyitems:pCube3
+    4300194: Lowpolyitems:pCube4
+    4300196: Lowpolyitems:pCube5
+    4300198: Lowpolyitems:Rail
+    4300200: Lowpolyitems:Long_Seat
+    4300202: Lowpolyitems:Pole
+    4300204: Lowpolyitems:Brace
+    4300206: Pole
+    4300208: Brace
+    4300210: Lowpolyitems:pCube7
+    4300212: Lowpolyitems:pCube8
+    4300214: Lowpolyitems:pCube6
+    4300216: Lowpolyitems:pCube9
+    4300218: Lowpolyitems:pCube11
+    4300220: Lowpolyitems:pCube10
+    4300222: Lowpolyitems:Rail
+    4300224: Lowpolyitems:pCylinder8
+    4300226: Lowpolyitems:pHelix1
+    4300228: Lowpolyitems:pTorus1
+    4300230: pHelix1
+    4300232: pTorus1
+    4300234: pCylinder8
+    4300236: pHelix2
+    4300238: pTorus2
+    4300240: pCylinder9
+    4300242: pHelix3
+    4300244: pTorus3
+    4300246: pCylinder10
+    4300248: pHelix4
+    4300250: pTorus4
+    4300252: pCylinder11
+    4300254: pCylinder12
+    4300256: pHelix5
+    4300258: pTorus5
+    4300260: pCylinder13
+    4300262: pHelix6
+    4300264: pTorus6
+    4300266: pTorus7
+    4300268: pCylinder14
+    4300270: pHelix7
+    4300272: pHelix8
+    4300274: pTorus8
+    4300276: pCylinder15
+    4300278: pCylinder16
+    4300280: pHelix9
+    4300282: pTorus9
+    4300284: pTorus10
+    4300286: pHelix10
+    4300288: pCylinder17
+    4300290: pCylinder18
+    4300292: pHelix11
+    4300294: pTorus11
+    4300296: pCylinder19
+    4300298: pHelix12
+    4300300: pTorus12
+    4300302: pTorus13
+    4300304: pCylinder20
+    4300306: pHelix13
+    4300308: Lowpolyitems:Stop_Requested_Box
+    4300310: Lowpolyitems:Stop_Requested_Sign
+    4300312: train_car
+    4300314: isle_track
+    4300316: mid_isle_track
+    4300318: door
+    4300320: door3
+    9500000: //RootNode
+    11400000: Brace
+    11400002: Brace 1
+    11400004: Brace 2
+    11400006: Brace 3
+    11400008: Brace1
+    11400010: Brace1 1
+    11400012: Brace1 2
+    11400014: Brace2
+    11400016: Brace2 1
+    11400018: Brace3
+    11400020: Brace3 1
+    11400022: Brace4
+    11400024: Brace4 1
+    11400026: door
+    11400028: door3
+    11400030: isle_track
+    11400032: Leg_1
+    11400034: Leg_1 1
+    11400036: Leg_1 10
+    11400038: Leg_1 11
+    11400040: Leg_1 2
+    11400042: Leg_1 3
+    11400044: Leg_1 4
+    11400046: Leg_1 5
+    11400048: Leg_1 6
+    11400050: Leg_1 7
+    11400052: Leg_1 8
+    11400054: Leg_1 9
+    11400056: Leg_2
+    11400058: Leg_2 1
+    11400060: Leg_2 2
+    11400062: Long_Seat
+    11400064: Long_Seat 1
+    11400066: Long_Seat 2
+    11400068: Long_Seat 3
+    11400070: Long_Seat1
+    11400072: Long_Seat2
+    11400074: Long_Seat_Pole
+    11400076: Long_Seat_Pole 1
+    11400078: Long_Seat_Pole 2
+    11400080: Lowpolyitems:Brace
+    11400082: Lowpolyitems:Hand_Strap
+    11400084: Lowpolyitems:Leg_1
+    11400086: Lowpolyitems:Leg_1 1
+    11400088: Lowpolyitems:Leg_2
+    11400090: Lowpolyitems:Long_Seat
+    11400092: Lowpolyitems:Long_Seat 1
+    11400094: Lowpolyitems:Long_Seat_Pole
+    11400096: Lowpolyitems:pCube10
+    11400098: Lowpolyitems:pCube11
+    11400100: Lowpolyitems:pCube3
+    11400102: Lowpolyitems:pCube4
+    11400104: Lowpolyitems:pCube5
+    11400106: Lowpolyitems:pCube6
+    11400108: Lowpolyitems:pCube7
+    11400110: Lowpolyitems:pCube8
+    11400112: Lowpolyitems:pCube9
+    11400114: Lowpolyitems:pCylinder2
+    11400116: Lowpolyitems:pCylinder3
+    11400118: Lowpolyitems:pCylinder8
+    11400120: Lowpolyitems:pHelix1
+    11400122: Lowpolyitems:Pole
+    11400124: Lowpolyitems:Pole 1
+    11400126: Lowpolyitems:pTorus1
+    11400128: Lowpolyitems:Rail
+    11400130: Lowpolyitems:Rail 1
+    11400132: Lowpolyitems:Seat_Mat
+    11400134: Lowpolyitems:Single_Seat
+    11400136: Lowpolyitems:Stop_Requested_Box
+    11400138: Lowpolyitems:Stop_Requested_Sign
+    11400140: mid_isle_track
+    11400142: pCube10
+    11400144: pCube10 1
+    11400146: pCube10 2
+    11400148: pCube11
+    11400150: pCube11 1
+    11400152: pCube11 2
+    11400154: pCube3
+    11400156: pCube3 1
+    11400158: pCube3 2
+    11400160: pCube3 3
+    11400162: pCube3 4
+    11400164: pCube3 5
+    11400166: pCube3 6
+    11400168: pCube3 7
+    11400170: pCube3 8
+    11400172: pCube4
+    11400174: pCube4 1
+    11400176: pCube4 2
+    11400178: pCube4 3
+    11400180: pCube4 4
+    11400182: pCube4 5
+    11400184: pCube4 6
+    11400186: pCube4 7
+    11400188: pCube4 8
+    11400190: pCube5
+    11400192: pCube5 1
+    11400194: pCube5 2
+    11400196: pCube5 3
+    11400198: pCube5 4
+    11400200: pCube5 5
+    11400202: pCube5 6
+    11400204: pCube5 7
+    11400206: pCube5 8
+    11400208: pCube6
+    11400210: pCube6 1
+    11400212: pCube6 2
+    11400214: pCube7
+    11400216: pCube7 1
+    11400218: pCube7 2
+    11400220: pCube8
+    11400222: pCube8 1
+    11400224: pCube8 2
+    11400226: pCube9
+    11400228: pCube9 1
+    11400230: pCube9 2
+    11400232: pCylinder10
+    11400234: pCylinder11
+    11400236: pCylinder12
+    11400238: pCylinder13
+    11400240: pCylinder14
+    11400242: pCylinder15
+    11400244: pCylinder16
+    11400246: pCylinder17
+    11400248: pCylinder18
+    11400250: pCylinder19
+    11400252: pCylinder2
+    11400254: pCylinder2 1
+    11400256: pCylinder20
+    11400258: pCylinder3
+    11400260: pCylinder4
+    11400262: pCylinder5
+    11400264: pCylinder6
+    11400266: pCylinder8
+    11400268: pCylinder9
+    11400270: pHelix1
+    11400272: pHelix10
+    11400274: pHelix11
+    11400276: pHelix12
+    11400278: pHelix13
+    11400280: pHelix2
+    11400282: pHelix3
+    11400284: pHelix4
+    11400286: pHelix5
+    11400288: pHelix6
+    11400290: pHelix7
+    11400292: pHelix8
+    11400294: pHelix9
+    11400296: Pole
+    11400298: Pole 1
+    11400300: Pole 2
+    11400302: Pole 3
+    11400304: Pole 4
+    11400306: Pole1
+    11400308: pTorus1
+    11400310: pTorus10
+    11400312: pTorus11
+    11400314: pTorus12
+    11400316: pTorus13
+    11400318: pTorus2
+    11400320: pTorus3
+    11400322: pTorus4
+    11400324: pTorus5
+    11400326: pTorus6
+    11400328: pTorus7
+    11400330: pTorus8
+    11400332: pTorus9
+    11400334: Rail
+    11400336: Rail 1
+    11400338: Rail 10
+    11400340: Rail 11
+    11400342: Rail 2
+    11400344: Rail 3
+    11400346: Rail 4
+    11400348: Rail 5
+    11400350: Rail 6
+    11400352: Rail 7
+    11400354: Rail 8
+    11400356: Rail 9
+    11400358: Seat_Mat
+    11400360: Seat_Mat 1
+    11400362: Seat_Mat 2
+    11400364: Seat_Mat 3
+    11400366: Seat_Mat 4
+    11400368: Seat_Mat 5
+    11400370: Seat_Mat 6
+    11400372: Seat_Mat 7
+    11400374: Seat_Mat 8
+    11400376: Single_Seat
+    11400378: Single_Seat1
+    11400380: Single_Seat2
+    11400382: Single_Seat3
+    11400384: Single_Seat4
+    11400386: Single_Seat5
+    11400388: Single_Seat6
+    11400390: Single_Seat7
+    11400392: Single_Seat8
+    11400394: Stop_Requested_Box
+    11400396: Stop_Requested_Sign
+    11400398: track_isle
+    11400400: //RootNode
+    11400402: //RootNode
+    11400404: train_car 1
+    11400406: train_car 2
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lowpolyitems_Poll_Anchor_Mat
+    second: {fileID: 2100000, guid: 0be2b4e584679435496ccc84cefeaea5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lowpolyitems_Poll_Mat
+    second: {fileID: 2100000, guid: 87f81974827e24aa99b434b391725355, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lowpolyitems_Seat_Anchor
+    second: {fileID: 2100000, guid: 5189c9c33b96a4278bf5fee994c0cb24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lowpolyitems_Stop_Requested_Sign_Matt
+    second: {fileID: 2100000, guid: 5147fa159d6f24172acc52340e6cb6b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lowpolyitems_blinn2
+    second: {fileID: 2100000, guid: 668c1ef0090194beeaea19b30123bd4c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lowpolyitems_lambert2
+    second: {fileID: 2100000, guid: ddf932fad97c2419d9c95404b0168e5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: car_color
+    second: {fileID: 2100000, guid: d7c600ff28cdf427c8cafe9761f04afb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door2
+    second: {fileID: 2100000, guid: d3994120735894f20aee8788428ca644, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 66cbaf798b92447b08676bb1dda28273, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2
+    second: {fileID: 2100000, guid: 48113e5d614a84d49bf2328c6a24d90e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert3
+    second: {fileID: 2100000, guid: 5d48f438d7e5948a9994c2df0b76c073, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
