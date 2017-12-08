@@ -20,6 +20,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4962569193390376}
   - component: {fileID: 114400553726023050}
+  - component: {fileID: 114947356106968414}
+  - component: {fileID: 114316950604199898}
   m_Layer: 0
   m_Name: DialogUIManager
   m_TagString: Untagged
@@ -40,6 +42,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114316950604199898
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1703323391723352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: b6157aff-810b-4ec4-b4e1-10b3a76b32b7
 --- !u!114 &114400553726023050
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -55,3 +69,22 @@ MonoBehaviour:
   mainButtonsPanel: {fileID: 0}
   buttonPrefab: {fileID: 1109689966051914, guid: ad2adb14b015d4365a8d8c79636e2a3e,
     type: 2}
+  Reticle_parent: {fileID: 0}
+  Reticle_inner: {fileID: 0}
+--- !u!114 &114947356106968414
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1703323391723352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -605777808, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isConnected: 1
+  _guid: 
+  _referenceCollection:
+    _collection:
+    - {fileID: 1703323391723352}
+  _assetGuid: 07681480fc0171d4cb21808fff2e89fc

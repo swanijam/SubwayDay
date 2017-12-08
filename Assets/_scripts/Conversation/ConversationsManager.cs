@@ -52,9 +52,12 @@ public class ConversationsManager : MonoBehaviour {
 
 	public void setSpeakerState(string speaker, SPEAKER_STATE state) {
 		if (speakerStates.ContainsKey(speaker)) {
+			Debug.Log ("Speaker " + speaker + " exists. setting SpeakerState.");
 			speakerStates [speaker] = state;
+			Debug.Log ("Speaker " + speaker + " animtion state: " + speakerStates[speaker]);
 		} else {
 			addSpeaker (speaker);
+			speakerStates [speaker] = state;
 		}
 	}
 }

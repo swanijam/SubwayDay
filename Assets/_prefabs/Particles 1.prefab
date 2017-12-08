@@ -19,6 +19,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4628194109688670}
+  - component: {fileID: 114542010345114282}
+  - component: {fileID: 114510066342905040}
   m_Layer: 0
   m_Name: Particles 1
   m_TagString: Untagged
@@ -36,6 +38,7 @@ GameObject:
   - component: {fileID: 4886288217098640}
   - component: {fileID: 198549206321098428}
   - component: {fileID: 199534870902189288}
+  - component: {fileID: 114372515527229378}
   m_Layer: 0
   m_Name: FlyerTracersParticles
   m_TagString: Untagged
@@ -70,6 +73,48 @@ Transform:
   m_Father: {fileID: 4628194109688670}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114372515527229378
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1299481766323478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 09263eec-2510-4203-acbf-02d3a65ebbae
+--- !u!114 &114510066342905040
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1162558798155000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: b90b630e-d325-4238-a9ad-975a6f052c9a
+--- !u!114 &114542010345114282
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1162558798155000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -605777808, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isConnected: 1
+  _guid: 
+  _referenceCollection:
+    _collection:
+    - {fileID: 1162558798155000}
+    - {fileID: 1299481766323478}
+  _assetGuid: a53adf5204d646c44a52a698011326fb
 --- !u!198 &198549206321098428
 ParticleSystem:
   m_ObjectHideFlags: 1

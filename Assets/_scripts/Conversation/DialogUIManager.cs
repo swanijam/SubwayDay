@@ -16,6 +16,10 @@ public class DialogUIManager : MonoBehaviour
 	public GameObject mainTextPanel;
 	public GameObject mainButtonsPanel;
 	public GameObject buttonPrefab;
+	// Currently accessed directly by GazeScript, but not used in any DialogUIManager functions. (I wanted to make sure 
+	//  everything UI related flows through here)
+	public GameObject Reticle_parent;
+	public GameObject Reticle_inner;
 
 	// Use this for initialization
 	void Start ()

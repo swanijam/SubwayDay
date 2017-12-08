@@ -60,3 +60,11 @@
 /Users/swanijam/Documents/SubwayDay/Temp/bin/Debug/Unity.Cecil.Mdb.dll
 /Users/swanijam/Documents/SubwayDay/Temp/bin/Debug/Assembly-CSharp.dll.mdb
 /Users/swanijam/Documents/SubwayDay/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/swanijam/Documents/SubwayDay/Temp/bin/Debug/NestedPrefabs.dll
+/Users/swanijam/Documents/SubwayDay/Temp/bin/Debug/NestedPrefabs_Editor.dll
+/Users/swanijam/Documents/SubwayDay/Temp/bin/Debug/Sirenix.OdinInspector.Attributes.dll
+/Users/swanijam/Documents/SubwayDay/Temp/bin/Debug/Sirenix.OdinInspector.Editor.dll
+/Users/swanijam/Documents/SubwayDay/Temp/bin/Debug/Sirenix.Serialization.Config.dll
+/Users/swanijam/Documents/SubwayDay/Temp/bin/Debug/Sirenix.Serialization.dll
+/Users/swanijam/Documents/SubwayDay/Temp/bin/Debug/Sirenix.Utilities.dll
+/Users/swanijam/Documents/SubwayDay/Temp/bin/Debug/Sirenix.Utilities.Editor.dll

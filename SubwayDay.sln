@@ -5,6 +5,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubwayDay", "Assembly-CShar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubwayDay", "Assembly-CSharp.csproj", "{703CFC43-79D0-30BF-53CE-98DCA6DB12F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubwayDay", "Assembly-CSharp-Editor.csproj", "{A27F0C6F-20CC-E3FD-6B24-C32420E3959B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubwayDay", "Assembly-CSharp-Editor-firstpass.csproj", "{16E64BAA-57FD-4CCC-F1ED-DF79A26B40C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +23,14 @@ Global
 		{703CFC43-79D0-30BF-53CE-98DCA6DB12F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{703CFC43-79D0-30BF-53CE-98DCA6DB12F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{703CFC43-79D0-30BF-53CE-98DCA6DB12F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A27F0C6F-20CC-E3FD-6B24-C32420E3959B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A27F0C6F-20CC-E3FD-6B24-C32420E3959B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A27F0C6F-20CC-E3FD-6B24-C32420E3959B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A27F0C6F-20CC-E3FD-6B24-C32420E3959B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16E64BAA-57FD-4CCC-F1ED-DF79A26B40C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16E64BAA-57FD-4CCC-F1ED-DF79A26B40C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16E64BAA-57FD-4CCC-F1ED-DF79A26B40C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16E64BAA-57FD-4CCC-F1ED-DF79A26B40C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

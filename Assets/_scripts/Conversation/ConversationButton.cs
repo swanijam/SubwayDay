@@ -30,7 +30,6 @@ public class ConversationButton : GazeResponder {
 		
 	public override void  Invoke() {
 		base.Invoke ();
-		Debug.Log ("this happened");
 		DialogUIManager.instance.HideDialogButtons ();
 	}
 }

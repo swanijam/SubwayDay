@@ -14,7 +14,6 @@ public class AwaitButtonInput : ConversationElement {
 		DialogUIManager.instance.RevealDialogButtons ();
 		ConversationsManager.instance.setSpeakerState (speakerName, SPEAKER_STATE.LISTENING);
 	}
-
 	void OnDisable() {
 		DialogUIManager.instance.HideDialogButtons ();
 	}

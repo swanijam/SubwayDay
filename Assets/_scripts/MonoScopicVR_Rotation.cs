@@ -16,6 +16,7 @@ public class MonoScopicVR_Rotation : MonoBehaviour {
 	public float _turnRate = 10f;
 	private float x = 0f;
 	private float y = 0f;
+	bool listening = false;
 
 
 	void Start() {
@@ -27,8 +28,11 @@ public class MonoScopicVR_Rotation : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
+		if (!listening && Input.GetMouseButtonDown (0)) {
+			listening = true;
+		}
 		#if UNITY_EDITOR
-		if (Input.GetKey(KeyCode.LeftAlt) || Input.GetKey(KeyCode.RightAlt)) {
+		if (listening) {
 			x += (Input.GetAxis("Mouse X") * _turnRate * Time.deltaTime);
 			y -= (Input.GetAxis("Mouse Y") * _turnRate * Time.deltaTime);
 			Quaternion rotation = Quaternion.Euler (y, x, 0f);
@@ -39,5 +43,10 @@ public class MonoScopicVR_Rotation : MonoBehaviour {
 		transform.localRotation = XRInput.GetLocalRotation(XRNode.CenterEye);
 		Debug.Log (XRInput.GetLocalRotation(XRNode.CenterEye));
 		#endif
+	}
+
+	public void ResetOffsets(){
+		y = transform.rotation.eulerAngles.x;
+		x = transform.rotation.eulerAngles.y;
 	}
 }

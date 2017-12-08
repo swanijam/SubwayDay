@@ -1,22 +1,25 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_scripts/Conversation/DisplayText.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_scripts/Conversation/ConversationElement.cs">
     <Files>
-      <File FileName="Assets/_scripts/Conversation/DisplayText.cs" Line="22" Column="54" />
+      <File FileName="Assets/_scripts/Conversation/Speaker.cs" Line="28" Column="4" />
+      <File FileName="Assets/_scripts/Conversation/ConversationsManager.cs" Line="19" Column="26" />
+      <File FileName="Assets/_scripts/Conversation/DisplayText.cs" Line="14" Column="42" />
       <File FileName="Assets/_scripts/MonoScopicVR_Rotation.cs" Line="1" Column="1" />
       <File FileName="Assets/_scripts/GazeResponder.cs" Line="1" Column="1" />
-      <File FileName="Assets/_scripts/GazeScript.cs" Line="16" Column="27" />
-      <File FileName="Assets/repeatAtoB.cs" Line="1" Column="1" />
-      <File FileName="Assets/_scripts/MaskRevealParent.cs" Line="16" Column="14" />
-      <File FileName="Assets/_scripts/MaskRevealButton.cs" Line="48" Column="16" />
-      <File FileName="Assets/_scripts/Conversation/DialogUIManager.cs" Line="54" Column="31" />
-      <File FileName="Assets/_scripts/Conversation/AwaitButtonInput.cs" Line="19" Column="1" />
+      <File FileName="Assets/_scripts/GazeScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/_scripts/MaskRevealParent.cs" Line="1" Column="1" />
+      <File FileName="Assets/_scripts/MaskRevealButton.cs" Line="1" Column="1" />
+      <File FileName="Assets/_scripts/Conversation/DialogUIManager.cs" Line="59" Column="1" />
+      <File FileName="Assets/_scripts/Conversation/AwaitButtonInput.cs" Line="21" Column="1" />
       <File FileName="Assets/Standard Assets/Utility/ForcedReset.cs" Line="1" Column="1" />
-      <File FileName="Assets/_scripts/Conversation/ConversationButton.cs" Line="31" Column="9" />
-      <File FileName="Assets/_scripts/GazeScript1.cs" Line="1" Column="1" />
+      <File FileName="Assets/_scripts/Conversation/ConversationButton.cs" Line="33" Column="1" />
+      <File FileName="Assets/_scripts/GazeScript1.cs" Line="86" Column="1" />
       <File FileName="Assets/_scripts/TimingUtils.cs" Line="1" Column="1" />
       <File FileName="Assets/_scripts/TimingHelper.cs" Line="1" Column="1" />
-      <File FileName="Assets/_scripts/Logg.cs" Line="19" Column="1" />
+      <File FileName="Assets/_scripts/Conversation/ConversationElement.cs" Line="6" Column="28" />
+      <File FileName="Assets/_scripts/Conversation/ConversationStart.cs" Line="9" Column="58" />
+      <File FileName="Assets/Eject.cs" Line="28" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

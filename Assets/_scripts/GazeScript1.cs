@@ -40,42 +40,52 @@ public class GazeScript1 : MonoBehaviour {
 			}
 			// If it is:
 			if (potential_gr && !potential_gr.inactive) {
+				DialogUIManager.instance.Reticle_parent.transform.localScale = Vector3.Slerp (DialogUIManager.instance.Reticle_parent.transform.localScale, new Vector3 (1.4f, 1.4f, 1.4f), .3f);
 				// If we've been looking at this continuously:
 				if (potential_gr == previous_gr) {
 					continuous_time += Time.deltaTime;
 					// If we have been looking at this long enough to qualify as a Gaze action:
-					float scale = 1f + ((continuous_time/secondsUntilGaze) * 2f);
-					reticle.transform.localScale = new Vector3(scale, scale, scale);
+					float progressRingFill = (continuous_time/secondsUntilGaze);
+					DialogUIManager.instance.Reticle_inner.GetComponent<Image>().fillAmount = progressRingFill;
 					if (continuous_time >= secondsUntilGaze) {
-						reticle.transform.localScale = new Vector3(1f, 1f, 1f);
+						DialogUIManager.instance.Reticle_parent.transform.localScale = Vector3.Slerp (DialogUIManager.instance.Reticle_parent.transform.localScale, new Vector3 (1f, 1f, 1f), .3f);
 						Debug.Log ("Gaze Triggered on " + hit.collider.gameObject.name);
 						// Notify the GazeResponder and tell it to, uh, respond.
+						DialogUIManager.instance.Reticle_inner.GetComponent<Image>().fillAmount = 0f;
 						continuous_time = 0f;
 						potential_gr.Invoke ();
 					}
+
 					// If we haven't been looking at this continuously: 
 				} else {
 					continuous_time = 0f;
+					DialogUIManager.instance.Reticle_inner.GetComponent<Image>().fillAmount = 0f;
+
 					previous_gr = potential_gr;
 					Debug.Log ("i see a gazresponder " + hit.collider.gameObject.name);
 				}					
 			} else {
-				reticle.transform.localScale = new Vector3(1f, 1f, 1f);
-//				Debug.Log (hit.collider.gameObject.name);
+
+				// If no valid gaze responder was seen
+				continuous_time = 0f;
+				DialogUIManager.instance.Reticle_inner.GetComponent<Image>().fillAmount = 0f;
+				DialogUIManager.instance.Reticle_parent.transform.localScale = Vector3.Slerp (DialogUIManager.instance.Reticle_parent.transform.localScale, new Vector3 (1f, 1f, 1f), .3f);
 			}
 				
 
-			if (hit.collider.gameObject.tag.Equals ("friend")) {
-				reticle.color = Color.green;
-			} else if (hit.collider.gameObject.tag.Equals ("dialogButton")) {
-				reticle.color = Color.cyan;
-			} else {
-				reticle.transform.localScale = new Vector3(1f, 1f, 1f);
-				reticle.color = Color.white;
-			}
+//			if (hit.collider.gameObject.tag.Equals ("friend")) {
+////				reticle.color = Color.green;
+//			} else if (hit.collider.gameObject.tag.Equals ("dialogButton")) {
+////				reticle.color = Color.cyan;
+//			} else {
+//				reticle.transform.localScale = Vector3.one;
+//			}
+
 		// If it doesn't hit something:
 		} else {
-			reticle.color = Color.white;
+			continuous_time = 0f;
+			DialogUIManager.instance.Reticle_inner.GetComponent<Image>().fillAmount = 0f;
+			DialogUIManager.instance.Reticle_parent.transform.localScale = Vector3.Slerp (DialogUIManager.instance.Reticle_parent.transform.localScale, new Vector3 (1f, 1f, 1f), .3f);
 		}
 
 ////		Debug.Log (results.Count);

@@ -18,12 +18,14 @@ public class Speaker : MonoBehaviour {
 
 	public void randomConversation() {
 		List<GameObject> convosForThisSpeaker = ConversationsManager.instance.conversationLists [speakerName];
-		Debug.Log (convosForThisSpeaker.Count);
+		Debug.Log ("Num conversations found: " + convosForThisSpeaker.Count);
 		foreach (GameObject convo in convosForThisSpeaker) {
-			Debug.Log ("convo:");
-			Debug.Log (convo.name);
+			Debug.Log ("convo:" + convo.name);
 		}
-		int r = Random.Range (0, convosForThisSpeaker.Count-1);
+		int r = Random.Range (0, convosForThisSpeaker.Count);
+		for (int i = 0; i < 20; i++) {
+			Debug.Log (Random.Range (0, convosForThisSpeaker.Count));
+		}
 		convosForThisSpeaker [r].GetComponent<ConversationStart>().StartConversation();
 	}
 }
