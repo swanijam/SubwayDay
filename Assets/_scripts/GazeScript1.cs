@@ -62,7 +62,7 @@ public class GazeScript1 : MonoBehaviour {
 					DialogUIManager.instance.Reticle_inner.GetComponent<Image>().fillAmount = 0f;
 
 					previous_gr = potential_gr;
-					Debug.Log ("i see a gazresponder " + hit.collider.gameObject.name);
+//					Debug.Log ("i see a gazresponder " + hit.collider.gameObject.name);
 				}					
 			} else {
 

@@ -8,6 +8,7 @@ public class AwaitButtonInput : ConversationElement {
 
 	// Use this for initialization
 	void Start () {
+		DialogUIManager.instance.ClearDialogButtons ();
 		foreach (ButtonData b in buttons) {
 			DialogUIManager.instance.AddButton (b);
 		}
@@ -15,6 +16,9 @@ public class AwaitButtonInput : ConversationElement {
 		ConversationsManager.instance.setSpeakerState (speakerName, SPEAKER_STATE.LISTENING);
 	}
 	void OnDisable() {
+		if (DialogUIManager.instance == null) {
+			Debug.Log ("uh oh");
+		}
 		DialogUIManager.instance.HideDialogButtons ();
 	}
 }

@@ -104,7 +104,7 @@ BoxCollider:
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &114082552201373868
 MonoBehaviour:
-  m_ObjectHideFlags: 11
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1835636527195302}
@@ -157,7 +157,7 @@ MonoBehaviour:
   m_Text: Okay man
 --- !u!114 &114380131291734222
 MonoBehaviour:
-  m_ObjectHideFlags: 11
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1814077465702830}
@@ -242,6 +242,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   inactive: 0
+  alwaysActive: 0
 --- !u!114 &114762018481584636
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -271,7 +272,7 @@ MonoBehaviour:
   m_FillOrigin: 0
 --- !u!114 &114808554203484982
 MonoBehaviour:
-  m_ObjectHideFlags: 11
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1857531675119962}
@@ -283,7 +284,7 @@ MonoBehaviour:
   _guid: 70084fe7-bba8-48e4-8d61-55ad1c1f44d5
 --- !u!114 &114838833242066564
 MonoBehaviour:
-  m_ObjectHideFlags: 11
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1431387508303690}
@@ -307,7 +308,7 @@ MonoBehaviour:
   m_ShowMaskGraphic: 0
 --- !u!114 &114969512615048320
 MonoBehaviour:
-  m_ObjectHideFlags: 11
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1835636527195302}
@@ -415,8 +416,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 2.0000002, y: 0.000000014901161}
-  m_SizeDelta: {x: 4, y: 0}
+  m_AnchoredPosition: {x: 2.0000002, y: 0.000000012642634}
+  m_SizeDelta: {x: 3.9999995, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224558368686091622
 RectTransform:
@@ -425,7 +426,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1835636527195302}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2, y: -101.7, z: 0}
+  m_LocalPosition: {x: 2, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 224879519098167754}
@@ -434,7 +435,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 2, y: -101.7}
+  m_AnchoredPosition: {x: 2, y: 0}
   m_SizeDelta: {x: 4, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224879519098167754

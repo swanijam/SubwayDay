@@ -1,26 +1,54 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_scripts/Conversation/ConversationElement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_scripts/Conversation/AwaitButtonInput.cs">
     <Files>
-      <File FileName="Assets/_scripts/Conversation/Speaker.cs" Line="28" Column="4" />
-      <File FileName="Assets/_scripts/Conversation/ConversationsManager.cs" Line="19" Column="26" />
-      <File FileName="Assets/_scripts/Conversation/DisplayText.cs" Line="14" Column="42" />
-      <File FileName="Assets/_scripts/MonoScopicVR_Rotation.cs" Line="1" Column="1" />
-      <File FileName="Assets/_scripts/GazeResponder.cs" Line="1" Column="1" />
+      <File FileName="Assets/_scripts/SetTransformTo.cs" Line="21" Column="15" />
+      <File FileName="Assets/_scripts/Conversation/Speaker.cs" Line="16" Column="1" />
+      <File FileName="Assets/_scripts/Conversation/ConversationsManager.cs" Line="55" Column="1" />
+      <File FileName="Assets/_scripts/Conversation/DisplayText.cs" Line="19" Column="31" />
+      <File FileName="Assets/_scripts/MonoScopicVR_Rotation.cs" Line="36" Column="4" />
+      <File FileName="Assets/_scripts/GazeResponder.cs" Line="17" Column="21" />
       <File FileName="Assets/_scripts/GazeScript.cs" Line="1" Column="1" />
       <File FileName="Assets/_scripts/MaskRevealParent.cs" Line="1" Column="1" />
-      <File FileName="Assets/_scripts/MaskRevealButton.cs" Line="1" Column="1" />
-      <File FileName="Assets/_scripts/Conversation/DialogUIManager.cs" Line="59" Column="1" />
-      <File FileName="Assets/_scripts/Conversation/AwaitButtonInput.cs" Line="21" Column="1" />
+      <File FileName="Assets/_scripts/MaskRevealButton.cs" Line="38" Column="5" />
+      <File FileName="Assets/_scripts/Conversation/DialogUIManager.cs" Line="61" Column="3" />
+      <File FileName="Assets/_scripts/Conversation/AwaitButtonInput.cs" Line="19" Column="49" />
       <File FileName="Assets/Standard Assets/Utility/ForcedReset.cs" Line="1" Column="1" />
       <File FileName="Assets/_scripts/Conversation/ConversationButton.cs" Line="33" Column="1" />
-      <File FileName="Assets/_scripts/GazeScript1.cs" Line="86" Column="1" />
+      <File FileName="Assets/_scripts/GazeScript1.cs" Line="38" Column="24" />
       <File FileName="Assets/_scripts/TimingUtils.cs" Line="1" Column="1" />
       <File FileName="Assets/_scripts/TimingHelper.cs" Line="1" Column="1" />
       <File FileName="Assets/_scripts/Conversation/ConversationElement.cs" Line="6" Column="28" />
-      <File FileName="Assets/_scripts/Conversation/ConversationStart.cs" Line="9" Column="58" />
+      <File FileName="Assets/_scripts/Conversation/ConversationStart.cs" Line="1" Column="1" />
       <File FileName="Assets/Eject.cs" Line="28" Column="1" />
+      <File FileName="Assets/_scripts/repeatAtoB.cs" Line="20" Column="4" />
+      <File FileName="Assets/moveWithOffsetToTransform.cs" Line="12" Column="29" />
+      <File FileName="Assets/setTransform.cs" Line="11" Column="42" />
+      <File FileName="Assets/_scripts/Logg.cs" Line="22" Column="57" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SubwayDay" expanded="True">
+            <Node name="Assembly-CSharp" expanded="True">
+              <Node name="_scripts" expanded="True">
+                <Node name="Conversation" expanded="True">
+                  <Node name="AwaitButtonInput.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="Assembly-CSharp-Editor" expanded="True" />
+            <Node name="Assembly-CSharp-Editor-firstpass" expanded="True" />
+            <Node name="Assembly-CSharp-firstpass" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State name="__root__">
+          <Node name="SubwayDay" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

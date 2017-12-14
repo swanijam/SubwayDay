@@ -9,8 +9,8 @@ public class moveWithOffsetToTransform : MonoBehaviour {
 	Vector3 difference;
 
 	public void setToSameOffset(Transform original_anchor, Transform new_anchor) {
-		Debug.Log ("What even");
-		difference = original_anchor.position - transform.position;
-		transform.position = new_anchor.position += difference;
+//		Debug.Log ("What even");
+//		difference = original_anchor.position - transform.position;
+//		transform.position = new_anchor.position += difference;
 	}
 }

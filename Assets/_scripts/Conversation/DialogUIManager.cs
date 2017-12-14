@@ -9,10 +9,8 @@ public struct ButtonData {
 	public UnityEvent action;
 }
 
-public class DialogUIManager : MonoBehaviour
+public class DialogUIManager : Singleton<DialogUIManager>
 {
-	public static DialogUIManager instance; 
-
 	public GameObject mainTextPanel;
 	public GameObject mainButtonsPanel;
 	public GameObject buttonPrefab;
@@ -24,11 +22,6 @@ public class DialogUIManager : MonoBehaviour
 	// Use this for initialization
 	void Start ()
 	{
-		if (instance == null) {
-			instance = this;
-		} else {
-			Destroy (this.gameObject);
-		}
 	}
 
 	public void SetMainDialogText(string value, bool showImmediately) {
@@ -57,10 +50,10 @@ public class DialogUIManager : MonoBehaviour
 
 	public void HideDialogButtons(){
 		mainButtonsPanel.BroadcastMessage ("Hide", null, SendMessageOptions.DontRequireReceiver);
-//		clearDialogButtons ();
+		ClearDialogButtons ();
 	}
 
-	public void clearDialogButtons() {
+	public void ClearDialogButtons() {
 		foreach (Transform childTransform in mainButtonsPanel.transform) Destroy(childTransform.gameObject);
 	}
 }
