@@ -59,6 +59,7 @@
      <Compile Include="Assets\_scripts\Conversation\DialogUIManager.cs" />
      <Compile Include="Assets\_scripts\Conversation\DisplayText.cs" />
      <Compile Include="Assets\_scripts\Conversation\Speaker.cs" />
+     <Compile Include="Assets\_scripts\Eject.cs" />
      <Compile Include="Assets\_scripts\GazeResponder.cs" />
      <Compile Include="Assets\_scripts\GazeScript.cs" />
      <Compile Include="Assets\_scripts\GazeScript1.cs" />
@@ -66,6 +67,7 @@
      <Compile Include="Assets\_scripts\MaskRevealButton.cs" />
      <Compile Include="Assets\_scripts\MaskRevealParent.cs" />
      <Compile Include="Assets\_scripts\MonoScopicVR_Rotation.cs" />
+     <Compile Include="Assets\_scripts\moveWithOffsetToTransform.cs" />
      <Compile Include="Assets\_scripts\oscillateY.cs" />
      <Compile Include="Assets\_scripts\repeatAtoB.cs" />
      <Compile Include="Assets\_scripts\SetTransformTo.cs" />
@@ -88,9 +90,6 @@
      <Compile Include="Assets\_scripts\Utilities\SceneSwitchOnClick.cs" />
      <Compile Include="Assets\_scripts\Utilities\Singleton.cs" />
      <Compile Include="Assets\_scripts\Utilities\StartState.cs" />
-     <Compile Include="Assets\Eject.cs" />
-     <Compile Include="Assets\moveWithOffsetToTransform.cs" />
-     <Compile Include="Assets\setTransform.cs" />
      <None Include="Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.xml" />
      <None Include="Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.xml" />
      <None Include="Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.xml" />
