@@ -8,7 +8,7 @@ public class Speaker : MonoBehaviour {
 
 	void Start() {
 		animator = this.GetComponent<Animator> ();
-		ConversationsManager.instance.addSpeaker (speakerName);
+		ConversationsManager.instance.addSpeaker (speakerName, gameObject);
 	}
 
 	// Update is called once per frame

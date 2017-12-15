@@ -12,6 +12,7 @@ public enum SPEAKER_STATE {
 public class ConversationsManager : MonoBehaviour {
 	public Dictionary<string, List<GameObject>> conversationLists;
 	public Dictionary<string, SPEAKER_STATE> speakerStates;
+	public Dictionary<string, GameObject> theSpeakersThemselves;
 
 	public static ConversationsManager instance;
 	// Use this for initialization
@@ -20,6 +21,7 @@ public class ConversationsManager : MonoBehaviour {
 			instance = this;
 			conversationLists = new Dictionary<string, List<GameObject>> ();
 			speakerStates = new Dictionary<string, SPEAKER_STATE>();
+			theSpeakersThemselves = new Dictionary<string, GameObject>();
 			Debug.Log ("Registered new instance of Conversations Manager");
 		} else if (instance == this) {
 			Debug.Log ("Singleton instance of Conversations Manager already registered");
@@ -27,6 +29,13 @@ public class ConversationsManager : MonoBehaviour {
 			Destroy (gameObject);
 			Debug.Log ("Destroyed extra instance of Conversations Manager");
 		}
+	}
+
+	// Overloaded for use by the speaker object itself for the purposes of easily appending
+	//  the ability to add 
+	public void addSpeaker (string speaker, GameObject obj) {
+		theSpeakersThemselves.Add (speaker, obj);
+		addSpeaker (speaker);
 	}
 		
 	public void addSpeaker (string speaker) {

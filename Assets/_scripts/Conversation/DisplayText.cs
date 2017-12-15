@@ -13,6 +13,7 @@ public class DisplayText : ConversationElement {
 		DialogUIManager.instance.SetMainDialogText (text, true);
 		// 1 represents the character is speaking
 		ConversationsManager.instance.setSpeakerState(speakerName, SPEAKER_STATE.SPEAKING);
+		ConversationsManager.instance.theSpeakersThemselves [speakerName].GetComponent<AudioSource> ().Play ();
 		StartCoroutine (HideText ());
 	}
 
