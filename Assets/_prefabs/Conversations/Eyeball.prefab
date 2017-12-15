@@ -20,6 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4550101518775814}
   - component: {fileID: 114372578723751524}
+  - component: {fileID: 114166195218665118}
   m_Layer: 0
   m_Name: S-Can't imagine why
   m_TagString: Untagged
@@ -37,6 +38,7 @@ GameObject:
   - component: {fileID: 4742533715295226}
   - component: {fileID: 114436152292341520}
   - component: {fileID: 222014638815683574}
+  - component: {fileID: 114784633025136054}
   m_Layer: 0
   m_Name: C-Why buying a hat
   m_TagString: Untagged
@@ -53,6 +55,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4083604673836844}
   - component: {fileID: 114917524739008872}
+  - component: {fileID: 114138250658611950}
   m_Layer: 0
   m_Name: S-Not sun
   m_TagString: Untagged
@@ -69,6 +72,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4236710054423930}
   - component: {fileID: 114723231619786132}
+  - component: {fileID: 114281810199105260}
   m_Layer: 0
   m_Name: S-Sun would hit eye
   m_TagString: Untagged
@@ -86,6 +90,7 @@ GameObject:
   - component: {fileID: 4915293104478314}
   - component: {fileID: 114150138498817056}
   - component: {fileID: 222856681912835432}
+  - component: {fileID: 114176269073580104}
   m_Layer: 0
   m_Name: C-Can't imagine why
   m_TagString: Untagged
@@ -103,6 +108,7 @@ GameObject:
   - component: {fileID: 4574581810678690}
   - component: {fileID: 114394713748722542}
   - component: {fileID: 222205332546148718}
+  - component: {fileID: 114727341559700598}
   m_Layer: 0
   m_Name: C-Ah I get it no
   m_TagString: Untagged
@@ -119,6 +125,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4644719322507908}
   - component: {fileID: 114201555545531478}
+  - component: {fileID: 114353233309991186}
   m_Layer: 0
   m_Name: S-Uh
   m_TagString: Untagged
@@ -135,6 +142,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4596955923770882}
   - component: {fileID: 114572994724082000}
+  - component: {fileID: 114282035758014880}
   m_Layer: 0
   m_Name: S-Steering wheel
   m_TagString: Untagged
@@ -151,6 +159,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4442921281269848}
   - component: {fileID: 114265915768097086}
+  - component: {fileID: 114867427932542464}
+  - component: {fileID: 114520036565385500}
   m_Layer: 0
   m_Name: Eyeball
   m_TagString: Untagged
@@ -168,6 +178,7 @@ GameObject:
   - component: {fileID: 4629868392143986}
   - component: {fileID: 114527852159085398}
   - component: {fileID: 222694152351017602}
+  - component: {fileID: 114855528873817532}
   m_Layer: 0
   m_Name: C-Why car in shop
   m_TagString: Untagged
@@ -185,6 +196,7 @@ GameObject:
   - component: {fileID: 4828634927730962}
   - component: {fileID: 114913940759428916}
   - component: {fileID: 222330886268567172}
+  - component: {fileID: 114655126357543902}
   m_Layer: 0
   m_Name: C-Uh ok
   m_TagString: Untagged
@@ -201,6 +213,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4132554384980926}
   - component: {fileID: 114151371286442718}
+  - component: {fileID: 114979671385381894}
   m_Layer: 0
   m_Name: S-Ding sound
   m_TagString: Untagged
@@ -217,6 +230,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4092480443739754}
   - component: {fileID: 114610786179862240}
+  - component: {fileID: 114037618612439108}
   m_Layer: 0
   m_Name: S-Ok
   m_TagString: Untagged
@@ -233,6 +247,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4403153928520334}
   - component: {fileID: 114721132977996488}
+  - component: {fileID: 114828235323747008}
   m_Layer: 0
   m_Name: S-Continue conversation
   m_TagString: Untagged
@@ -249,6 +264,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4059406375237314}
   - component: {fileID: 114490183454052900}
+  - component: {fileID: 114178076072306842}
   m_Layer: 0
   m_Name: S-Ask about his hat
   m_TagString: Untagged
@@ -266,6 +282,7 @@ GameObject:
   - component: {fileID: 4433576878600758}
   - component: {fileID: 114691678401938680}
   - component: {fileID: 222149142332582464}
+  - component: {fileID: 114337480858515732}
   m_Layer: 0
   m_Name: C-How many miles
   m_TagString: Untagged
@@ -283,6 +300,7 @@ GameObject:
   - component: {fileID: 4704201632031556}
   - component: {fileID: 114701945737737522}
   - component: {fileID: 222727305960425778}
+  - component: {fileID: 114563977094045886}
   m_Layer: 0
   m_Name: C-Continue conversation
   m_TagString: Untagged
@@ -300,6 +318,7 @@ GameObject:
   - component: {fileID: 4945464762655488}
   - component: {fileID: 114638785891034286}
   - component: {fileID: 222409007588956426}
+  - component: {fileID: 114967531479680474}
   m_Layer: 0
   m_Name: C-Um
   m_TagString: Untagged
@@ -317,6 +336,7 @@ GameObject:
   - component: {fileID: 4674989459916934}
   - component: {fileID: 114838692463843118}
   - component: {fileID: 222007725016077704}
+  - component: {fileID: 114961047984856480}
   m_Layer: 0
   m_Name: C-Uh
   m_TagString: Untagged
@@ -333,6 +353,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4776494383023444}
   - component: {fileID: 114682045546979198}
+  - component: {fileID: 114973876549254796}
   m_Layer: 0
   m_Name: S-Cool
   m_TagString: Untagged
@@ -349,6 +370,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4704641440686722}
   - component: {fileID: 114481447653385792}
+  - component: {fileID: 114931239267136728}
   m_Layer: 0
   m_Name: S-Not 5
   m_TagString: Untagged
@@ -366,6 +388,7 @@ GameObject:
   - component: {fileID: 4511034089343728}
   - component: {fileID: 114978670295373302}
   - component: {fileID: 222541207168466050}
+  - component: {fileID: 114082651320082162}
   m_Layer: 0
   m_Name: C-Oh sorry to hear
   m_TagString: Untagged
@@ -382,6 +405,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4661796584331418}
   - component: {fileID: 114252671025358914}
+  - component: {fileID: 114721967230178012}
   m_Layer: 0
   m_Name: S-Oh sorry to hear
   m_TagString: Untagged
@@ -398,6 +422,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4483587364124116}
   - component: {fileID: 114336026841689954}
+  - component: {fileID: 114867367478736098}
   m_Layer: 0
   m_Name: S-Ah I get it no
   m_TagString: Untagged
@@ -414,6 +439,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4083096684799580}
   - component: {fileID: 114289593639993954}
+  - component: {fileID: 114470360132022952}
   m_Layer: 0
   m_Name: S-Not steering wheel
   m_TagString: Untagged
@@ -431,6 +457,7 @@ GameObject:
   - component: {fileID: 4034111003080636}
   - component: {fileID: 114920433952668518}
   - component: {fileID: 222386087798007722}
+  - component: {fileID: 114794760776361364}
   m_Layer: 0
   m_Name: C-Yes I am sorry
   m_TagString: Untagged
@@ -447,6 +474,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4794268888780468}
   - component: {fileID: 114375698801934442}
+  - component: {fileID: 114814447246183086}
   m_Layer: 0
   m_Name: S-Say Hi
   m_TagString: Untagged
@@ -463,6 +491,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4999318119534102}
   - component: {fileID: 114181148631685018}
+  - component: {fileID: 114612770680896090}
   m_Layer: 0
   m_Name: S-No I'm not I love your stories
   m_TagString: Untagged
@@ -479,6 +508,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4930116938506284}
   - component: {fileID: 114110426285188968}
+  - component: {fileID: 114993267031384812}
   m_Layer: 0
   m_Name: S-Lie and say your stop is coming up
   m_TagString: Untagged
@@ -495,6 +525,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4712004786212050}
   - component: {fileID: 114952544795984024}
+  - component: {fileID: 114528376248604226}
   m_Layer: 0
   m_Name: S-Yes I am sorry
   m_TagString: Untagged
@@ -512,6 +543,7 @@ GameObject:
   - component: {fileID: 4457461062128362}
   - component: {fileID: 114680063127045436}
   - component: {fileID: 222874810253736208}
+  - component: {fileID: 114657633645524046}
   m_Layer: 0
   m_Name: C-Ask about his hat
   m_TagString: Untagged
@@ -529,6 +561,7 @@ GameObject:
   - component: {fileID: 4514478434838930}
   - component: {fileID: 114624703486444722}
   - component: {fileID: 222296748533089604}
+  - component: {fileID: 114148972126285286}
   m_Layer: 0
   m_Name: C-Cool
   m_TagString: Untagged
@@ -545,6 +578,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4347637044282236}
   - component: {fileID: 114587733649547114}
+  - component: {fileID: 114598243115304832}
   m_Layer: 0
   m_Name: S-Um
   m_TagString: Untagged
@@ -561,6 +595,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4641578569117380}
   - component: {fileID: 114756079008560504}
+  - component: {fileID: 114761585756028856}
   m_Layer: 0
   m_Name: S-Uh ok
   m_TagString: Untagged
@@ -578,6 +613,7 @@ GameObject:
   - component: {fileID: 4276237858810856}
   - component: {fileID: 114124806680657634}
   - component: {fileID: 222445195390987924}
+  - component: {fileID: 114278472512448522}
   m_Layer: 0
   m_Name: C-Ok
   m_TagString: Untagged
@@ -594,6 +630,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4213040494219950}
   - component: {fileID: 114286848303649180}
+  - component: {fileID: 114969835392346384}
   m_Layer: 0
   m_Name: S-5
   m_TagString: Untagged
@@ -1104,6 +1141,30 @@ Transform:
   m_Father: {fileID: 4034111003080636}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114037618612439108
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1489280307024320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 90a28b56-4030-41f2-877f-222033e95f54
+--- !u!114 &114082651320082162
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1728602116380322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 57a28810-79c1-4a02-934e-e28de8d07f1a
 --- !u!114 &114110426285188968
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1152,6 +1213,30 @@ MonoBehaviour:
           m_CallState: 2
       m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
+--- !u!114 &114138250658611950
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1043860206126392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: dcb1e93f-88e3-4635-8079-722ff784734a
+--- !u!114 &114148972126285286
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1866977065268030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 33fe0fd3-e8b7-4a31-aac4-29a801beb1f8
 --- !u!114 &114150138498817056
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1197,6 +1282,42 @@ MonoBehaviour:
   lingerTime: 3
   text: "Well that\u2019s all I had to say. I guess we'll never meet ever again."
   enableAfterLinger: {fileID: 0}
+--- !u!114 &114166195218665118
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1006839730314896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 6501c117-6166-43c2-ab25-636abcc86b1e
+--- !u!114 &114176269073580104
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1115180202860492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 2e4af0de-4154-4648-bdca-898328c5bf63
+--- !u!114 &114178076072306842
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1594567976525260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: dc19f92a-b46c-4339-a732-68572410bf40
 --- !u!114 &114181148631685018
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1267,6 +1388,42 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speakerName: Eyeball Guy
   firstStep: {fileID: 1797568374439078}
+--- !u!114 &114278472512448522
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1933959297248410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: aeb56ef9-3b78-41da-897b-bc90d182452b
+--- !u!114 &114281810199105260
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1082459416585572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 5c171cce-3805-4fe8-a3f5-9fa84dafad5b
+--- !u!114 &114282035758014880
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1167028839453088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: cd8196cf-d478-4237-b15b-8b3ca74b0f69
 --- !u!114 &114286848303649180
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1318,6 +1475,30 @@ MonoBehaviour:
 
     closing for good. I ended up buying a different hat instead.'
   enableAfterLinger: {fileID: 1678565385158510}
+--- !u!114 &114337480858515732
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1596159875757608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 65274247-3027-49c9-bccb-e88f4abdd7df
+--- !u!114 &114353233309991186
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1165281317773850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 26992503-631b-4078-8354-81dcbd423de4
 --- !u!114 &114372578723751524
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1444,6 +1625,18 @@ MonoBehaviour:
           m_CallState: 2
       m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
+--- !u!114 &114470360132022952
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1784509562585020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: b8d9e0eb-c8b0-4be6-aaf5-d41da788516c
 --- !u!114 &114481447653385792
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1476,6 +1669,18 @@ MonoBehaviour:
   lingerTime: 3
   text: I bought this hat at my local hat store. It's about 5 miles from my own house.!
   enableAfterLinger: {fileID: 1866977065268030}
+--- !u!114 &114520036565385500
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1284228665813362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 3f8f74c9-70b9-424f-9e6e-f6c586c88e1e
 --- !u!114 &114527852159085398
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1557,6 +1762,30 @@ MonoBehaviour:
           m_CallState: 2
       m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
+--- !u!114 &114528376248604226
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1836046569184850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 422eff3b-9bc6-41dc-b4eb-ae6d28d99f64
+--- !u!114 &114563977094045886
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1605488224586470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 28abe190-e858-4759-80c2-b6105432f541
 --- !u!114 &114572994724082000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1590,6 +1819,18 @@ MonoBehaviour:
 
     and he didn''t want to hear me on the ride there.'
   enableAfterLinger: {fileID: 1115180202860492}
+--- !u!114 &114598243115304832
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1906749177677226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 70bef5f8-da59-46ef-8127-7b98cd6212f5
 --- !u!114 &114610786179862240
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1614,6 +1855,18 @@ MonoBehaviour:
 
 '
   enableAfterLinger: {fileID: 1633708105073550}
+--- !u!114 &114612770680896090
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1820291926254136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: e2f910a7-a3d0-4421-9472-6fc8745ebf6f
 --- !u!114 &114624703486444722
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1674,6 +1927,30 @@ MonoBehaviour:
           m_CallState: 2
       m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
+--- !u!114 &114655126357543902
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1366298344904736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: ac8bc1d8-36cb-4a6b-baec-b5b21ae0082c
+--- !u!114 &114657633645524046
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1837376035849908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: a1688e01-257c-42fc-b452-ea16da32fa92
 --- !u!114 &114680063127045436
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1868,6 +2145,18 @@ MonoBehaviour:
 
     ended as I was moving in.'
   enableAfterLinger: {fileID: 1484265899755934}
+--- !u!114 &114721967230178012
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1729392007790008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 331cea27-d7cc-408a-8a1d-c77b63dc0e10
 --- !u!114 &114723231619786132
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1889,6 +2178,18 @@ MonoBehaviour:
 
     window again.'
   enableAfterLinger: {fileID: 0}
+--- !u!114 &114727341559700598
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1164863691068652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: fdbee25f-bd9e-4155-8725-0143aa56e19a
 --- !u!114 &114756079008560504
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1907,6 +2208,66 @@ MonoBehaviour:
 
     my eyes from the sun. So I decided to replace it entirely at Big Pete''s Hat Store.'
   enableAfterLinger: {fileID: 1933959297248410}
+--- !u!114 &114761585756028856
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1925653703816392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 2bdd1739-fc27-4c86-98c6-83847ecec327
+--- !u!114 &114784633025136054
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1020080224630234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 6d98e42b-e981-4111-9a0f-2555ca48d6a5
+--- !u!114 &114794760776361364
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1785007143853192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 28ec7797-0dc5-41b3-b4da-0fa040a1f462
+--- !u!114 &114814447246183086
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1797568374439078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 4ea6ed85-06f1-45d7-aeef-4ee08e947b58
+--- !u!114 &114828235323747008
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1509397074512726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 92b31856-ab5a-4bc0-bb88-5b71590c6316
 --- !u!114 &114838692463843118
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1937,6 +2298,82 @@ MonoBehaviour:
           m_CallState: 2
       m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
+--- !u!114 &114855528873817532
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1289431260880286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 47e3b6cb-424c-4b4b-9327-a82b2a98cda1
+--- !u!114 &114867367478736098
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1766937668453080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 3e506d8a-9639-4cfc-9c65-4b471ee28e84
+--- !u!114 &114867427932542464
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1284228665813362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -605777808, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isConnected: 1
+  _guid: 
+  _referenceCollection:
+    _collection:
+    - {fileID: 1284228665813362}
+    - {fileID: 1797568374439078}
+    - {fileID: 1837376035849908}
+    - {fileID: 1594567976525260}
+    - {fileID: 1866977065268030}
+    - {fileID: 1687212118681674}
+    - {fileID: 1728602116380322}
+    - {fileID: 1729392007790008}
+    - {fileID: 1366298344904736}
+    - {fileID: 1925653703816392}
+    - {fileID: 1933959297248410}
+    - {fileID: 1489280307024320}
+    - {fileID: 1633708105073550}
+    - {fileID: 1906749177677226}
+    - {fileID: 1115180202860492}
+    - {fileID: 1006839730314896}
+    - {fileID: 1164863691068652}
+    - {fileID: 1766937668453080}
+    - {fileID: 1678565385158510}
+    - {fileID: 1165281317773850}
+    - {fileID: 1605488224586470}
+    - {fileID: 1509397074512726}
+    - {fileID: 1484265899755934}
+    - {fileID: 1826291947599804}
+    - {fileID: 1785007143853192}
+    - {fileID: 1836046569184850}
+    - {fileID: 1820291926254136}
+    - {fileID: 1596159875757608}
+    - {fileID: 1726528278954590}
+    - {fileID: 1955465757971238}
+    - {fileID: 1289431260880286}
+    - {fileID: 1784509562585020}
+    - {fileID: 1167028839453088}
+    - {fileID: 1020080224630234}
+    - {fileID: 1043860206126392}
+    - {fileID: 1082459416585572}
+  _assetGuid: 187ed92f03c4c433489f7e898b336d80
 --- !u!114 &114913940759428916
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2029,6 +2466,18 @@ MonoBehaviour:
           m_CallState: 2
       m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
+--- !u!114 &114931239267136728
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726528278954590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 405ff5a8-a98d-45d0-92b7-299c11abbe9c
 --- !u!114 &114952544795984024
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2044,6 +2493,54 @@ MonoBehaviour:
   lingerTime: 3
   text: It's ok. At least you were honest this time around.
   enableAfterLinger: {fileID: 0}
+--- !u!114 &114961047984856480
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1678565385158510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: fd39d3d6-7a6b-44fe-9dce-b25eaebf3ed0
+--- !u!114 &114967531479680474
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1633708105073550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 0056aa91-500f-490d-9898-bac38ae78b96
+--- !u!114 &114969835392346384
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1955465757971238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 1b8631dc-55db-48e0-b007-f6fc10b983c5
+--- !u!114 &114973876549254796
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1687212118681674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 3950c5dd-2eb6-4258-8f96-c9144ebaccf8
 --- !u!114 &114978670295373302
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2074,6 +2571,30 @@ MonoBehaviour:
           m_CallState: 2
       m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
+--- !u!114 &114979671385381894
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1484265899755934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 7197af4e-2222-4adc-a775-fdd5c6a7ab6e
+--- !u!114 &114993267031384812
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1826291947599804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 0f46ef32-3521-4d1d-a3d0-754b794da9ff
 --- !u!222 &222007725016077704
 CanvasRenderer:
   m_ObjectHideFlags: 1
