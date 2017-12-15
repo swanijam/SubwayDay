@@ -67,6 +67,7 @@
      <Compile Include="Assets\_scripts\MaskRevealButton.cs" />
      <Compile Include="Assets\_scripts\MaskRevealParent.cs" />
      <Compile Include="Assets\_scripts\MonoScopicVR_Rotation.cs" />
+     <Compile Include="Assets\_scripts\MoveDialogUIButtonsAndLookAtPlayer.cs" />
      <Compile Include="Assets\_scripts\moveWithOffsetToTransform.cs" />
      <Compile Include="Assets\_scripts\MusicController.cs" />
      <Compile Include="Assets\_scripts\oscillateY.cs" />
