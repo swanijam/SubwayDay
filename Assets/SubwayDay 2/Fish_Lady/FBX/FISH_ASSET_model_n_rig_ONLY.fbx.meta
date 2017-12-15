@@ -1,0 +1,227 @@
+fileFormatVersion: 2
+guid: 33c7e6f37eae641d084bd39a3660b05a
+timeCreated: 1513233585
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: CHEST_J
+    100002: //RootNode
+    100004: Fish_Body_GEO
+    100006: Fish_Hat_GEO
+    100008: FISH_L_EYE_GEO
+    100010: FISH_R_EYE_GEO
+    100012: HAT_BACK_MID_J
+    100014: HAT_BACK_TIP_J
+    100016: HAT_FRONT_MID_J
+    100018: HAT_FRONT_TIP_J
+    100020: HAT_L_SIDE_MID_J
+    100022: HAT_L_SIDE_TIP_J
+    100024: HAT_R_SIDE_MID_J
+    100026: HAT_R_SIDE_TIP_J
+    100028: HAT_TOP_J
+    100030: HEAD_J
+    100032: HIP_J
+    100034: JAW_J
+    100036: JAW_TIP_J
+    100038: L_EYE_J
+    100040: L_FIN_LOWEL_J
+    100042: L_FIN_MID_J
+    100044: L_FIN_SHOULDEL_J
+    100046: L_FIN_TIP_J
+    100048: L_FIN_UPPEL_J
+    100050: NECK_J
+    100052: NOSE_J
+    100054: NOSE_TIP_J
+    100056: R_EYE_J
+    100058: R_FIN_LOWER_J
+    100060: R_FIN_MID_J
+    100062: R_FIN_SHOULDER_J
+    100064: R_FIN_TIP_J
+    100066: R_FIN_UPPER_J
+    100068: SPINE_1_J
+    100070: SPINE_2_J
+    100072: SPINE_3_J
+    100074: TAIL_BOTTOM_MID_J
+    100076: TAIL_BOTTOM_TIP_J
+    100078: TAIL_J
+    100080: TAIL_TOP_MID_J
+    100082: TAIL_TOP_TIP_J
+    400000: CHEST_J
+    400002: //RootNode
+    400004: Fish_Body_GEO
+    400006: Fish_Hat_GEO
+    400008: FISH_L_EYE_GEO
+    400010: FISH_R_EYE_GEO
+    400012: HAT_BACK_MID_J
+    400014: HAT_BACK_TIP_J
+    400016: HAT_FRONT_MID_J
+    400018: HAT_FRONT_TIP_J
+    400020: HAT_L_SIDE_MID_J
+    400022: HAT_L_SIDE_TIP_J
+    400024: HAT_R_SIDE_MID_J
+    400026: HAT_R_SIDE_TIP_J
+    400028: HAT_TOP_J
+    400030: HEAD_J
+    400032: HIP_J
+    400034: JAW_J
+    400036: JAW_TIP_J
+    400038: L_EYE_J
+    400040: L_FIN_LOWEL_J
+    400042: L_FIN_MID_J
+    400044: L_FIN_SHOULDEL_J
+    400046: L_FIN_TIP_J
+    400048: L_FIN_UPPEL_J
+    400050: NECK_J
+    400052: NOSE_J
+    400054: NOSE_TIP_J
+    400056: R_EYE_J
+    400058: R_FIN_LOWER_J
+    400060: R_FIN_MID_J
+    400062: R_FIN_SHOULDER_J
+    400064: R_FIN_TIP_J
+    400066: R_FIN_UPPER_J
+    400068: SPINE_1_J
+    400070: SPINE_2_J
+    400072: SPINE_3_J
+    400074: TAIL_BOTTOM_MID_J
+    400076: TAIL_BOTTOM_TIP_J
+    400078: TAIL_J
+    400080: TAIL_TOP_MID_J
+    400082: TAIL_TOP_TIP_J
+    4300000: Fish_Hat_GEO
+    4300002: Fish_Body_GEO
+    4300004: FISH_R_EYE_GEO
+    4300006: FISH_L_EYE_GEO
+    7400000: Take 001
+    9500000: //RootNode
+    11400000: CHEST_J
+    11400002: //RootNode
+    11400004: //RootNode
+    11400006: Fish_Body_GEO
+    11400008: Fish_Hat_GEO
+    11400010: FISH_L_EYE_GEO
+    11400012: FISH_R_EYE_GEO
+    11400014: HAT_BACK_MID_J
+    11400016: HAT_BACK_TIP_J
+    11400018: HAT_FRONT_MID_J
+    11400020: HAT_FRONT_TIP_J
+    11400022: HAT_L_SIDE_MID_J
+    11400024: HAT_L_SIDE_TIP_J
+    11400026: HAT_R_SIDE_MID_J
+    11400028: HAT_R_SIDE_TIP_J
+    11400030: HAT_TOP_J
+    11400032: HEAD_J
+    11400034: HIP_J
+    11400036: JAW_J
+    11400038: JAW_TIP_J
+    11400040: L_EYE_J
+    11400042: L_FIN_LOWEL_J
+    11400044: L_FIN_MID_J
+    11400046: L_FIN_SHOULDEL_J
+    11400048: L_FIN_TIP_J
+    11400050: L_FIN_UPPEL_J
+    11400052: NECK_J
+    11400054: NOSE_J
+    11400056: NOSE_TIP_J
+    11400058: R_EYE_J
+    11400060: R_FIN_LOWER_J
+    11400062: R_FIN_MID_J
+    11400064: R_FIN_SHOULDER_J
+    11400066: R_FIN_TIP_J
+    11400068: R_FIN_UPPER_J
+    11400070: SPINE_1_J
+    11400072: SPINE_2_J
+    11400074: SPINE_3_J
+    11400076: TAIL_BOTTOM_MID_J
+    11400078: TAIL_BOTTOM_TIP_J
+    11400080: TAIL_J
+    11400082: TAIL_TOP_MID_J
+    11400084: TAIL_TOP_TIP_J
+    13700000: Fish_Body_GEO
+    13700002: Fish_Hat_GEO
+    13700004: FISH_L_EYE_GEO
+    13700006: FISH_R_EYE_GEO
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 08616b732d9c24cbea40e40b0c2d03df, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

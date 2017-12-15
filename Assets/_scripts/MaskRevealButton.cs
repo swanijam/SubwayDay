@@ -25,7 +25,6 @@ public class MaskRevealButton : MonoBehaviour {
 	void Update () {
 		
 		if (revealing) {
-			Debug.Log ("whatchu doin");
 			float x = Mathf.Min ((currentTime / animTime), 1f);
 			currentTime += Time.deltaTime;
 			button.SetParent (transform);
