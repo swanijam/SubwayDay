@@ -3,16 +3,25 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public enum SPEAKER_STATE {
+	NONE,
 	IDLE,
 	WAKING_UP,
 	SPEAKING,
-	LISTENING
+	LISTENING,
+	ANNOYED,
+	ANGRY,
+	SAD,
+	IMPATIENT,
+	WAVING,
+	HAT_WAVE
 }
 
 public class ConversationsManager : MonoBehaviour {
 	public Dictionary<string, List<GameObject>> conversationLists;
 	public Dictionary<string, SPEAKER_STATE> speakerStates;
 	public Dictionary<string, GameObject> theSpeakersThemselves;
+
+	public GameObject mostRecentSpeaker;
 
 	public static ConversationsManager instance;
 	// Use this for initialization

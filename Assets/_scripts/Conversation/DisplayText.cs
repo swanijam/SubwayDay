@@ -4,15 +4,28 @@ using UnityEngine;
 using Sirenix.OdinInspector;
 
 public class DisplayText : ConversationElement {
+	[InfoBox("Recommend 3-8 seconds")]
 	public float lingerTime = 5f;
 	[TextArea]
 	public string text = "...";
 	public GameObject enableAfterLinger;
+	[InfoBox("If this is set to NONE, speaker will use the default speaking sound")]
+	public AudioClip overrideSound;
+	[InfoBox("If this is set to NONE, speaker will use 'SPEAKING'")]
+	public SPEAKER_STATE overrideCharacterState = SPEAKER_STATE.NONE;
 
 	void OnEnable() {
+		ConversationsManager.instance.mostRecentSpeaker = ConversationsManager.instance.theSpeakersThemselves [speakerName];
 		DialogUIManager.instance.SetMainDialogText (text, true);
 		// 1 represents the character is speaking
-		ConversationsManager.instance.setSpeakerState(speakerName, SPEAKER_STATE.SPEAKING);
+		if (overrideCharacterState != null) {
+			ConversationsManager.instance.setSpeakerState (speakerName, overrideCharacterState);
+		} else {
+			ConversationsManager.instance.setSpeakerState (speakerName, SPEAKER_STATE.SPEAKING);
+		}
+		if (overrideSound != null) {
+			ConversationsManager.instance.theSpeakersThemselves [speakerName].GetComponent<AudioSource> ().clip = overrideSound;
+		}
 		ConversationsManager.instance.theSpeakersThemselves [speakerName].GetComponent<AudioSource> ().Play ();
 		StartCoroutine (HideText ());
 	}

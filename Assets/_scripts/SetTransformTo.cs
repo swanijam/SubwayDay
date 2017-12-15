@@ -10,7 +10,10 @@ public class SetTransformTo : MonoBehaviour {
 
 	public void Move() {
 		objToMove.position = destination.position;
-		objToMove.rotation = destination.rotation;
+//		objToMove.rotation = destination.rotation;
+		if (ConversationsManager.instance.mostRecentSpeaker != null) {
+			objToMove.transform.LookAt (ConversationsManager.instance.mostRecentSpeaker.transform);
+		}
 
 //		DialogUIButtonPanel = DialogUIManager.instance.mainButtonsPanel.transform;
 //		float offset = Mathf.Cos (Mathf.Deg2Rad * (objToMove.gameObject.GetComponent<Camera> ().fieldOfView) / 2f) * Vector3.Distance (lookAtTarget.position, objToMove.position);
