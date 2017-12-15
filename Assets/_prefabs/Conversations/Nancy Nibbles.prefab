@@ -20,6 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4354166866768422}
   - component: {fileID: 114694377708699572}
+  - component: {fileID: 114105427642477334}
   m_Layer: 0
   m_Name: S-Gobble...
   m_TagString: Untagged
@@ -37,6 +38,7 @@ GameObject:
   - component: {fileID: 4806977538260736}
   - component: {fileID: 114805166935053814}
   - component: {fileID: 222857331979017024}
+  - component: {fileID: 114497547989634710}
   m_Layer: 0
   m_Name: C- Gobble
   m_TagString: Untagged
@@ -53,6 +55,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4113501410050352}
   - component: {fileID: 114150731761043404}
+  - component: {fileID: 114719869002575214}
   m_Layer: 0
   m_Name: S-I don't understand
   m_TagString: Untagged
@@ -69,6 +72,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4619177518234636}
   - component: {fileID: 114974307056071356}
+  - component: {fileID: 114758703435350966}
   m_Layer: 0
   m_Name: S-Gobble?
   m_TagString: Untagged
@@ -85,6 +89,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4191349623564374}
   - component: {fileID: 114680161076743068}
+  - component: {fileID: 114887736667542268}
   m_Layer: 0
   m_Name: S-Gobble!
   m_TagString: Untagged
@@ -101,6 +106,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4876672380854222}
   - component: {fileID: 114548694109718068}
+  - component: {fileID: 114994105388046148}
   m_Layer: 0
   m_Name: S-Say Hi
   m_TagString: Untagged
@@ -117,6 +123,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4642844727052738}
   - component: {fileID: 114820714971114098}
+  - component: {fileID: 114730752046798862}
+  - component: {fileID: 114157957679341408}
   m_Layer: 0
   m_Name: Nancy Nibbles
   m_TagString: Untagged
@@ -134,6 +142,7 @@ GameObject:
   - component: {fileID: 4224417545794186}
   - component: {fileID: 114377898053289040}
   - component: {fileID: 222716118839845908}
+  - component: {fileID: 114090400313462644}
   m_Layer: 0
   m_Name: C- Gobble
   m_TagString: Untagged
@@ -252,6 +261,30 @@ Transform:
   m_Father: {fileID: 4642844727052738}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114090400313462644
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1909700427449606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: f2d96e12-1a6c-4eae-9130-2c5b4483a25f
+--- !u!114 &114105427642477334
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1010606828174498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 2ea40de9-a7eb-4203-adfc-e0f05ee8b60b
 --- !u!114 &114150731761043404
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -267,6 +300,20 @@ MonoBehaviour:
   lingerTime: 2
   text: Respect your elders.
   enableAfterLinger: {fileID: 0}
+  overrideSound: {fileID: 0}
+  overrideCharacterState: 0
+--- !u!114 &114157957679341408
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1841655201840460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: e4536a14-634e-4255-9ee7-704228b2fae9
 --- !u!114 &114377898053289040
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -314,6 +361,18 @@ MonoBehaviour:
           m_CallState: 2
       m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
+--- !u!114 &114497547989634710
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1014961784018546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: c263605f-d59d-44fe-a54c-66fa4abb5a4f
 --- !u!114 &114548694109718068
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -329,6 +388,8 @@ MonoBehaviour:
   lingerTime: 2
   text: Gobble? Gobble gobble gobble...
   enableAfterLinger: {fileID: 1909700427449606}
+  overrideSound: {fileID: 0}
+  overrideCharacterState: 0
 --- !u!114 &114680161076743068
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -344,6 +405,8 @@ MonoBehaviour:
   lingerTime: 2
   text: GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE
   enableAfterLinger: {fileID: 0}
+  overrideSound: {fileID: 0}
+  overrideCharacterState: 0
 --- !u!114 &114694377708699572
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -359,6 +422,56 @@ MonoBehaviour:
   lingerTime: 2
   text: Gobble gobble, gob gobble.
   enableAfterLinger: {fileID: 1909700427449606}
+  overrideSound: {fileID: 0}
+  overrideCharacterState: 0
+--- !u!114 &114719869002575214
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1020905495154720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: e315fef9-f881-4c8b-b40c-9f37dd937100
+--- !u!114 &114730752046798862
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1841655201840460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -605777808, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isConnected: 1
+  _guid: 
+  _referenceCollection:
+    _collection:
+    - {fileID: 1841655201840460}
+    - {fileID: 1674495991294308}
+    - {fileID: 1909700427449606}
+    - {fileID: 1334772149478876}
+    - {fileID: 1215823763374498}
+    - {fileID: 1014961784018546}
+    - {fileID: 1020905495154720}
+    - {fileID: 1010606828174498}
+  _assetGuid: 4acec896058bc4148970773473085d67
+--- !u!114 &114758703435350966
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1215823763374498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: bc133663-7444-4d63-8682-849153334ec1
 --- !u!114 &114805166935053814
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -419,6 +532,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speakerName: Nancy Nibbles
   firstStep: {fileID: 1674495991294308}
+--- !u!114 &114887736667542268
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1334772149478876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: bf5c993c-efe3-4cc9-9ce2-6a5d5bb37295
 --- !u!114 &114974307056071356
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -434,6 +559,20 @@ MonoBehaviour:
   lingerTime: 2
   text: Gob gobble gob gob!
   enableAfterLinger: {fileID: 1014961784018546}
+  overrideSound: {fileID: 0}
+  overrideCharacterState: 0
+--- !u!114 &114994105388046148
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1674495991294308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: 31fa6783-a124-451b-8d88-6f1072b4097d
 --- !u!222 &222716118839845908
 CanvasRenderer:
   m_ObjectHideFlags: 1
